@@ -1,0 +1,29 @@
+{
+  "name": "Oliver Pattison",
+  "version": "0.0.1",
+  "description": "documentary photographer",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "eleventy",
+    "test": "eleventy --watch",
+    "start": "eleventy --serve",
+    "deploy": "netlify deploy -o",
+    "debug": "DEBUG=* eleventy --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opattison/oliverpattison.com.git"
+  },
+  "author": "Oliver Pattison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opattison/oliverpattison.com.git/issues"
+  },
+  "homepage": "https://github.com/opattison/oliverpattison.com.git#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "@imgix/js-core": "^3.6.0",
+    "clean-css": "^5.3.1",
+    "netlify-cli": "^10.12.1"
+  }
+}
