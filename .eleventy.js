@@ -15,12 +15,15 @@ module.exports = function(eleventyConfig) {
   const markdown = require("markdown-it")({
     html: true
   });
+  const yaml = require("js-yaml");
   const cleancss = require("clean-css");
   const imgix = require("@imgix/js-core");
   
   eleventyConfig.addShortcode("markdown", (content) => {
     return markdown.render(content);
   });
+    
+  eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
   
   eleventyConfig.addFilter("cssmin", function(code) {
     return new cleancss({}).minify(code).styles;
@@ -31,6 +34,7 @@ module.exports = function(eleventyConfig) {
     htmlTemplateEngine: "njk",
     
     dir: {
+      data: "_data",
       layouts: "_layouts",
       includes: "_includes",
       input: "input",

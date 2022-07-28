@@ -1,0 +1,67 @@
+:root {
+  --color-primary: 0 0%;
+  --color-accent: 0 90%;
+  
+  --light-f0: 0%;
+  --light-f1: 16%;
+  --light-f2: 32%;
+  --light-f5: 50%;
+  --light-f7: 85%;
+  --light-f8: 92%;
+  --light-f9: 98%;
+  --light-b0: 98%;
+  --light-b1: 95%;
+  --light-b2: 92%;
+  --light-b7: 30%;
+  --light-b8: 20%;
+  --light-b9: 10%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --light-f0: 98%;
+    --light-f1: 92%;
+    --light-f2: 85%;
+    --light-f3: 80%;
+    --light-f5: 50%;
+    --light-b0: 10%;
+    --light-b1: 20%;
+    --light-b2: 30%;
+  }
+}
+
+:root {
+  background-color: hsl(var(--color-primary) var(--light-b1));
+  color: hsl(var(--color-primary) var(--light-f1));
+}
+
+a,
+a:visited {
+  color: hsl(var(--color-primary) var(--light-f0));
+  text-decoration: underline;
+}
+
+a:focus,
+a:hover {
+  color: hsl(var(--color-accent) var(--light-f2));
+}
+
+footer {
+  background-color: hsl(var(--color-primary) var(--light-b7));
+  color: hsl(var(--color-primary) var(--light-f9));
+}
+
+footer a,
+footer a:visited {
+  color: hsl(var(--color-primary) var(--light-f8));
+  text-decoration: underline;
+}
+
+footer a:focus,
+footer a:hover {
+  color: hsl(var(--color-accent) var(--light-f7));
+}
+
+.subtitle {
+  color: hsl(var(--color-primary) var(--light-f5));
+}
