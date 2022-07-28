@@ -11,6 +11,10 @@ main {
   padding: 2em;
 }
 
+header {
+  margin: 1em auto;
+}
+
 footer {
   flex-grow: 2;
   padding: 2em;
@@ -18,6 +22,10 @@ footer {
 
 p {
   margin: 1em 0 0;
+}
+
+.home {
+  text-decoration: none;
 }
 
 .title {
@@ -31,10 +39,42 @@ p {
   margin-top: .5em;
 }
 
-.contact-list {
-  margin-top: .5em;
+.portfolio {
+  padding-top: 3em;
+}
+
+.grid {
+  display: flex;
+  flex-flow: column nowrap;
+  list-style: none;
+}
+
+.grid-item {
+  margin: .5em 0;
+}
+
+.grid-image {
+  max-width: none;
+  width: 100%;
+}
+
+.contact {
   line-height: 1.5;
   list-style: none;
+  margin-top: .5em;
+}
+
+.contact-item {
+  display: inline;
+}
+
+.contact-item::after {
+  content: ' —';
+  margin: 0 .25em;
+}
+
+.contact-item:last-child::after {
+  content: '';
 }
 
 @media screen and (min-width: 28em) {
@@ -45,17 +85,30 @@ p {
     .subtitle {
       font-size: 1em;
     }
+    
+    .grid {
+      flex-flow: row wrap;
+      list-style: none;
+      margin-left: -.5em;
+      width: calc(100% + 1em);
+    }
+    
+    .grid-item {
+      flex: 0 0 calc(50% - 1em);
+      max-width: 50%;
+      margin: .5em;
+    }
 }
 
 @media screen and (min-width: 35em) {
   main {
     flex-grow: 2;
-    padding: 2em 3em;
+    padding: 3em;
   }
   
   footer {
     flex-grow: 2;
-    padding: 2em 3em;
+    padding: 3em;
   }
   
   .title {
@@ -75,6 +128,6 @@ p {
   }
   
   .introduction {
-    padding-left: 50%;
+    margin-left: calc(50% + .5em);
   }
 }

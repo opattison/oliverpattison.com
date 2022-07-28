@@ -29,6 +29,33 @@ module.exports = function(eleventyConfig) {
     return new cleancss({}).minify(code).styles;
   });
   
+  eleventyConfig.addShortcode("image_portfolio", (path, alt) => {
+    const token = process.env.IMGIX_OP;
+    const client = new imgix({
+      domain: 'oliverpattison.imgix.net',
+      secureURLToken: token
+    });
+    
+    const defaultWidth = 501;
+    const defaultHeight = 334;
+    
+    const src = client.buildURL(path, 
+      {
+        w: defaultWidth,
+        h: defaultHeight
+      }
+    );
+    
+    const srcset = client.buildSrcSet(path,
+      {},
+      { widths: [300, 501, 699, 900, 1101, 1299, 1500] }
+    );
+    
+    const sizes = "84vw, (min-width: 52em) 42vw";
+    
+    return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="grid-image">`;
+  });
+  
   return {
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
