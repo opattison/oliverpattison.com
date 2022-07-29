@@ -2,9 +2,9 @@
 layout: base.njk
 ---
 
-
 <section class="introduction--about">
-{{ introduction }}
+{% markdown introduction %}
+{% markdown callout  %}
 </section>
 <section class="page--about">
 {{ content | safe }}
