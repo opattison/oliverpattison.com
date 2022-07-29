@@ -21,6 +21,6 @@ I have been taking photography seriously for many years and what keeps me engage
 
 I got into photography by taking pictures of events for a non-profit that I worked for, which trained me to take pictures quickly and decisively before moments are gone forever. I am particularly interested in how the human experience can be preserved through still photography, especially when complemented by evocative storytelling with writing, audio, or video.
 
-I enjoy taking portraits of people, but I like candid photography that shows people moving in the context of their environment. Having deeper and more meaningful conversations before picking up a camera is key to taking more expressive and honest photos of people.
+Having deeper and more meaningful conversations before picking up a camera is key to taking more expressive and honest photos of people. I enjoy taking portraits of people, but I like candid photography that shows people moving in the context of their environment.
 
 I care about what photographs are eventually used for and that informs the approach I take. Some people need photographs for a straightforward business need, but there is still a big difference between pictures that tell a cohesive story, or connect emotionally with an audience, and pictures that do not. Other people need a portrait, but there is a big difference between a portrait that is a flattering picture of a person’s face, and a portrait that shows what a person is really like. Knowing what a photo is for is essential to getting that balance right.
