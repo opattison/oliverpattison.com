@@ -1,0 +1,9 @@
+{
+"short_name": "Oliver Pattison",
+"name": "Oliver Pattison",
+"description": "professional documentary photographer",
+"icons": [
+  { "src": "icons/icon-192.png", "type": "image/png", "sizes": "192x192" },
+  { "src": "icons/icon-512.png", "type": "image/png", "sizes": "512x512" }
+]
+}
