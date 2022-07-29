@@ -2,6 +2,12 @@
 layout: base.njk
 ---
 
+<section class="introduction--about">
+{% markdown introduction %}
+{% markdown callout  %}
+</section>
 <section class="page--about">
 {{ content | safe }}
+<hr>
+<p><a href="/">back to portfolio</a></p>
 </section>
