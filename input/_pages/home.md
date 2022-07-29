@@ -3,7 +3,7 @@ layout: home.njk
 permalink: /
 ---
 
-My name is Oliver and I am a photographer who shoots in a documentary style for families and small businesses. 
+I am a photographer who shoots in a documentary style for individuals, families, and businesses. 
 
 [Read more about me and my work](/about/).
 
