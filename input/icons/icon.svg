@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>icon512-iteration</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="164" cy="164" r="164"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon512-iteration" sketch:type="MSArtboardGroup">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(92.000000, 92.000000)">
+                <mask id="mask-2" sketch:name="Mask" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#CC3D33" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                <g mask="url(#mask-2)" id="Oval" sketch:type="MSShapeGroup">
+                    <circle fill="#CC3D33" cx="164" cy="164" r="164"></circle>
+                    <circle fill="#373E43" cx="164" cy="164" r="160"></circle>
+                    <circle fill="#49535A" cx="164" cy="164" r="154"></circle>
+                    <circle fill="#BD1B0F" cx="164" cy="164" r="150"></circle>
+                    <circle fill="#CC3D33" cx="164" cy="164" r="144"></circle>
+                    <circle fill="#373E43" cx="164" cy="164" r="140"></circle>
+                    <path d="M164,298 C238.006156,298 298,238.006156 298,164 C298,89.9938435 238.006156,30 164,30 C89.9938435,30 30,89.9938435 30,164 C30,238.006156 89.9938435,298 164,298 Z" fill="#BD1B0F"></path>
+                    <circle fill="#CC3D33" cx="164" cy="164" r="128"></circle>
+                    <path d="M164,284 C230.27417,284 284,230.27417 284,164 C284,97.72583 230.27417,44 164,44 C97.72583,44 44,97.72583 44,164 C44,230.27417 97.72583,284 164,284 Z" fill="#373E43"></path>
+                    <circle fill="#49535A" cx="164" cy="164" r="112"></circle>
+                    <circle fill="#5A6FAF" cx="164" cy="164" r="106"></circle>
+                    <circle fill="#397EAC" cx="164" cy="164" r="98"></circle>
+                    <circle fill="#1476B8" cx="164" cy="164" r="90"></circle>
+                    <path d="M164,248 C210.391919,248 248,210.391919 248,164 C248,117.608081 210.391919,80 164,80 C117.608081,80 80,117.608081 80,164 C80,210.391919 117.608081,248 164,248 Z" fill="#5A6FAF"></path>
+                    <circle fill="#5C6870" cx="164" cy="164" r="76"></circle>
+                    <circle fill="#105F93" cx="164" cy="164" r="70"></circle>
+                    <circle fill="#397EAC" cx="164" cy="164" r="64"></circle>
+                    <circle fill="#B0B9BF" cx="164" cy="164" r="54"></circle>
+                    <circle fill="#1476B8" cx="164" cy="164" r="44"></circle>
+                    <circle fill="#5C6870" cx="164" cy="164" r="36"></circle>
+                    <circle fill="#1476B8" cx="164" cy="164" r="32"></circle>
+                    <circle fill="#397EAC" cx="164" cy="164" r="24"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

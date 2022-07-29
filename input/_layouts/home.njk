@@ -1,0 +1,14 @@
+---
+layout: base.njk
+---
+
+<section class="page--portfolio">
+  <ul class="grid">
+  {% for image in portfolio.images %}
+    <li class="grid-item">{% image_portfolio image.src, image.alt %}</li>
+  {% endfor %}
+  </ul>
+</section>
+<section class="introduction">
+  {{ content | safe }}
+</section>
