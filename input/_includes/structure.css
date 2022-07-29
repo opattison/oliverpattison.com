@@ -95,6 +95,10 @@ hr::after {
   content: '';
 }
 
+.location {
+  margin-top: 2em;
+}
+
 @media screen and (min-width: 28em) {
     .title {
       font-size: 2em;
@@ -160,5 +164,9 @@ hr::after {
    
   .page--about {
     margin: 2em 0 0 25%;
+  }
+  
+  .location {
+    text-align: right;
   }
 }
