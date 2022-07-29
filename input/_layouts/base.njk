@@ -52,6 +52,18 @@ location: 'Based in Colorado Springs, Colorado.'
 		</style>
 	</head>
 	<body>
+		<nav>
+			<ul class="navlist">
+				{% if page.url == '/about/' %}<li class="navlist-item"><a href="/">home</a></li>
+				{% else %}
+				<li class="navlist-item">home</li>
+				{% endif %}
+				{% if page.url == '/' %}<li class="navlist-item"><a href="/about/">about</a></li>
+				{% else %}
+				<li class="navlist-item">about</li>
+				{% endif %}
+			</ul>
+		</nav>
 		<main>
 			<header class="heading">
 				<a class="home" href="/"><h1 class="title">{{ title }}</h1></a>
