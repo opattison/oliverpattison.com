@@ -15,7 +15,7 @@ header {
 }
 
 main {
-  padding: 1em 2em 2em;
+  padding: 1em 2em 4em;
 }
 
 footer {
@@ -91,8 +91,12 @@ hr::after {
 }
 
 .contact {
-  line-height: 1.5;
+  margin-top: -1em;
+}
+
+.contact-list {
   list-style: none;
+  margin-top: 1em;
 }
 
 .contact-item {
@@ -145,7 +149,7 @@ hr::after {
   }
   
   main {
-    padding: 3em;
+    padding: 3em 3em 4em;
   }
   
   footer {
