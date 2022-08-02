@@ -78,7 +78,7 @@ module.exports = function(eleventyConfig) {
       { widths: [300, 501, 699, 900, 1101, 1299, 1500] }
     );
     
-    const sizes = "84vw, (min-width: 52em) 42vw";
+    const sizes = "92vw, (min-width: 35em) 45vw";
     
     return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="profile">`;
   });
