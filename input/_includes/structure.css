@@ -70,9 +70,12 @@ hr::after {
   padding-left: 1em;
 }
 
-.page--portfolio,
-.introduction--about {
+.page--portfolio {
   padding-top: 2em;
+}
+
+.introduction--about {
+  padding-top: 1em;
 }
 
 .grid {
@@ -88,6 +91,11 @@ hr::after {
 .grid-image {
   max-width: none;
   width: 100%;
+}
+
+.profile {
+  margin: 2em -2em 0 0;
+  max-width: calc(100% + 2em);
 }
 
 .contact {
@@ -160,6 +168,13 @@ hr::after {
   .page--portfolio,
   .introduction--about {
     padding-top: 3em;
+  }
+  
+  .profile {
+    float: right;
+    margin: 3em -3em 0 0;
+    max-width: calc(50% + 1em);
+    padding: 1em 0 1em 1em;
   }
 }
 
