@@ -95,7 +95,8 @@ hr::after {
 
 .profile {
   margin: 2em -2em 0 0;
-  max-width: calc(100% + 2em);
+  max-width: none;
+  width: calc(100% + 2em);
 }
 
 .contact {
@@ -165,7 +166,10 @@ hr::after {
     line-height: 1;
   }
   
-  .page--portfolio,
+  .page--portfolio {
+    padding-top: 3em;
+  }
+  
   .introduction--about {
     padding-top: 3em;
   }
@@ -173,8 +177,8 @@ hr::after {
   .profile {
     float: right;
     margin: 3em -3em 0 0;
-    max-width: calc(50% + 1em);
     padding: 1em 0 1em 1em;
+    width: calc(50% + 1em);
   }
 }
 
@@ -193,6 +197,11 @@ hr::after {
    
   .page--about {
     margin: 2em 0 0 25%;
+  }
+  
+  .profile {
+    padding-left: 2em;
+    max-width: 25em;
   }
   
   .location {
