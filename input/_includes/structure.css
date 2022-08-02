@@ -11,7 +11,7 @@ nav {
 }
 
 header {
-  padding: 2em;
+  padding: 1em 2em;
 }
 
 main {
@@ -69,14 +69,6 @@ hr::after {
   padding-left: 1em;
 }
 
-.page--portfolio {
-  padding-top: 2em;
-}
-
-.introduction--about {
-  padding-top: 1em;
-}
-
 .grid {
   display: flex;
   flex-flow: column nowrap;
@@ -101,7 +93,6 @@ hr::after {
 .contact {
   line-height: 1.5;
   list-style: none;
-  margin-top: .5em;
 }
 
 .contact-item {
@@ -150,7 +141,7 @@ hr::after {
   }
   
   header {
-    padding: 1em 3em;
+    padding: 2em 3em;
   }
   
   main {
@@ -171,17 +162,9 @@ hr::after {
     line-height: 1;
   }
   
-  .page--portfolio {
-    padding-top: 3em;
-  }
-  
-  .introduction--about {
-    padding-top: 3em;
-  }
-  
   .profile {
     float: right;
-    margin: 4em -3em 1em 3em;
+    margin: -2em -3em 2em 3em;
     padding: 0;
     width: calc(50% + 1em);
   }
@@ -201,7 +184,6 @@ hr::after {
   }
   
   .profile {
-    margin: 4em -3em 0 3em;
     max-width: 25em;
   }
   
