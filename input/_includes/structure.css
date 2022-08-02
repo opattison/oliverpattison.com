@@ -6,17 +6,16 @@ body {
   margin: 0;
 }
 
-main {
-  flex-grow: 2;
-  padding: 2em;
-}
-
 nav {
-  padding: 2em 2em 0;
+  padding: 1em 2em;
 }
 
 header {
-  margin: 1em auto;
+  padding: 1em 2em;
+}
+
+main {
+  padding: 1em 2em 4em;
 }
 
 footer {
@@ -70,14 +69,6 @@ hr::after {
   padding-left: 1em;
 }
 
-.page--portfolio {
-  padding-top: 2em;
-}
-
-.introduction--about {
-  padding-top: 1em;
-}
-
 .grid {
   display: flex;
   flex-flow: column nowrap;
@@ -100,9 +91,12 @@ hr::after {
 }
 
 .contact {
-  line-height: 1.5;
+  margin-top: -1em;
+}
+
+.contact-list {
   list-style: none;
-  margin-top: .5em;
+  margin-top: 1em;
 }
 
 .contact-item {
@@ -123,36 +117,42 @@ hr::after {
 }
 
 @media screen and (min-width: 28em) {
-    .title {
-      font-size: 2em;
-    }
-    
-    .subtitle {
-      font-size: 1.28em;
-    }
-    
-    .grid {
-      flex-flow: row wrap;
-      list-style: none;
-      margin-left: -.5em;
-      width: calc(100% + 1em);
-    }
-    
-    .grid-item {
-      flex: 0 0 calc(50% - 1em);
-      max-width: 50%;
-      margin: .5em;
-    }
+  .title {
+    font-size: 2em;
+  }
+  
+  .subtitle {
+    font-size: 1.28em;
+  }
+  
+  .grid {
+    flex-flow: row wrap;
+    list-style: none;
+    margin-left: -.5em;
+    width: calc(100% + 1em);
+  }
+  
+  .grid-item {
+    flex: 0 0 calc(50% - 1em);
+    max-width: 50%;
+    margin: .5em;
+  }
 }
 
 @media screen and (min-width: 35em) {
+  nav {
+    padding: 1em 3em;
+  }
+  
+  header {
+    padding: 2em 3em;
+  }
+  
   main {
-    flex-grow: 2;
-    padding: 3em;
+    padding: 3em 3em 4em;
   }
   
   footer {
-    flex-grow: 2;
     padding: 3em;
   }
   
@@ -166,27 +166,15 @@ hr::after {
     line-height: 1;
   }
   
-  .page--portfolio {
-    padding-top: 3em;
-  }
-  
-  .introduction--about {
-    padding-top: 3em;
-  }
-  
   .profile {
     float: right;
-    margin: 4em -3em 1em 3em;
+    margin: -2em -3em 2em 3em;
     padding: 0;
     width: calc(50% + 1em);
   }
 }
 
-@media screen and (min-width: 52em) {
-  main {
-    margin: 0 0 auto 0;
-  }
-  
+@media screen and (min-width: 52em) {  
   .introduction {
     margin-left: calc(50% + .5em);
   }
@@ -200,7 +188,6 @@ hr::after {
   }
   
   .profile {
-    margin: 4em -3em 0 3em;
     max-width: 25em;
   }
   
