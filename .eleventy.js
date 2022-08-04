@@ -52,7 +52,7 @@ module.exports = function(eleventyConfig) {
       { widths: [300, 501, 699, 900, 1101, 1299, 1500] }
     );
     
-    const sizes = "84vw, (min-width: 52em) 42vw";
+    const sizes = "(min-width: 35em) calc(50vw - 3em), (min-width: 28em) calc(50vw - 2em), calc(100vw - 4em)";
     
     if (process.env.NODE_ENV === 'development') {
       return `<img src="${basePath}${path}" class="grid-image">`;
@@ -78,7 +78,7 @@ module.exports = function(eleventyConfig) {
       { widths: [300, 501, 699, 900, 1101, 1299, 1500] }
     );
     
-    const sizes = "92vw, (min-width: 35em) 45vw";
+    const sizes = "(min-width: 52em) 37.5vw, (min-width: 35em) calc(50vw - 3em), calc(100vw - 2em)";
     
     if (process.env.NODE_ENV === 'development') {
       return `<img src="${basePath}${path}" class="profile">`;
