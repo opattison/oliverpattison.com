@@ -34,8 +34,9 @@ module.exports = function(eleventyConfig) {
     domain: 'oliverpattison.imgix.net',
     secureURLToken: token
   });
+  const basePath = "/images/";
   
-  eleventyConfig.addShortcode("image_portfolio", (path, alt) => {    
+  eleventyConfig.addShortcode("image_portfolio", (path, alt) => { 
     const defaultWidth = 501;
     const defaultHeight = 334;
     
@@ -53,10 +54,15 @@ module.exports = function(eleventyConfig) {
     
     const sizes = "84vw, (min-width: 52em) 42vw";
     
-    return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="grid-image">`;
+    if (process.env.NODE_ENV === 'development') {
+      return `<img src="${basePath}${path}" class="grid-image">`;
+    }
+    else {
+      return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="grid-image">`;
+    };
   });
   
-  eleventyConfig.addShortcode("image_profile", (path, alt) => {  
+  eleventyConfig.addShortcode("image_profile", (path, alt) => {
     const defaultWidth = 501;
     const defaultHeight = 334;
     
@@ -74,7 +80,12 @@ module.exports = function(eleventyConfig) {
     
     const sizes = "92vw, (min-width: 35em) 45vw";
     
-    return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="profile">`;
+    if (process.env.NODE_ENV === 'development') {
+      return `<img src="${basePath}${path}" class="profile">`;
+    }
+    else {
+      return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="profile">`;
+    };
   });
   
   eleventyConfig.addShortcode("image_og", (path) => {
