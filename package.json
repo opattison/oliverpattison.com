@@ -5,8 +5,8 @@
   "main": ".eleventy.js",
   "scripts": {
     "build": "eleventy",
-    "test": "eleventy --watch",
-    "start": "eleventy --serve",
+    "test": "NODE_ENV=development eleventy --watch",
+    "start": "NODE_ENV=development eleventy --serve",
     "deploy": "netlify deploy -o",
     "debug": "DEBUG=* eleventy --dry-run"
   },
