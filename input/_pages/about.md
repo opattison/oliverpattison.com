@@ -1,9 +1,6 @@
 ---
 layout: about.njk
 permalink: /about/
-portrait:
-  src: '/about/oliverpattison-profile.jpg'
-  alt: 'a portrait of Oliver Pattison'
 introduction: 
   'I take pictures in a humanistic style for individuals, families, and businesses who want a realistic document of their life or work.
   

@@ -29,13 +29,14 @@ module.exports = function(eleventyConfig) {
     return new cleancss({}).minify(code).styles;
   });
   
-  eleventyConfig.addShortcode("image_portfolio", (path, alt) => {
-    const token = process.env.IMGIX_OP;
-    const client = new imgix({
-      domain: 'oliverpattison.imgix.net',
-      secureURLToken: token
-    });
-    
+  const token = process.env.IMGIX_OP;
+  const client = new imgix({
+    domain: 'oliverpattison.imgix.net',
+    secureURLToken: token
+  });
+  const basePath = "/images/";
+  
+  eleventyConfig.addShortcode("image_portfolio", (path, alt) => { 
     const defaultWidth = 501;
     const defaultHeight = 334;
     
@@ -51,18 +52,17 @@ module.exports = function(eleventyConfig) {
       { widths: [300, 501, 699, 900, 1101, 1299, 1500] }
     );
     
-    const sizes = "84vw, (min-width: 52em) 42vw";
+    const sizes = "(min-width: 35em) calc(50vw - 3em), (min-width: 28em) calc(50vw - 2em), calc(100vw - 4em)";
     
-    return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="grid-image">`;
+    if (process.env.NODE_ENV === 'development') {
+      return `<img src="${basePath}${path}" class="grid-image">`;
+    }
+    else {
+      return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="grid-image">`;
+    };
   });
   
   eleventyConfig.addShortcode("image_profile", (path, alt) => {
-    const token = process.env.IMGIX_OP;
-    const client = new imgix({
-      domain: 'oliverpattison.imgix.net',
-      secureURLToken: token
-    });
-    
     const defaultWidth = 501;
     const defaultHeight = 334;
     
@@ -78,9 +78,25 @@ module.exports = function(eleventyConfig) {
       { widths: [300, 501, 699, 900, 1101, 1299, 1500] }
     );
     
-    const sizes = "92vw, (min-width: 35em) 45vw";
+    const sizes = "(min-width: 52em) 37.5vw, (min-width: 35em) calc(50vw - 3em), calc(100vw - 2em)";
     
-    return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="profile">`;
+    if (process.env.NODE_ENV === 'development') {
+      return `<img src="${basePath}${path}" class="profile">`;
+    }
+    else {
+      return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="profile">`;
+    };
+  });
+  
+  eleventyConfig.addShortcode("image_og", (path) => {
+    const url = client.buildURL(path, {
+      w: 1200,
+      h: 630,
+      fit: 'crop',
+      crop: 'faces'
+    });
+    
+    return `${url}`;
   });
   
   return {
