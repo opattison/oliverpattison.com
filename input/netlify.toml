@@ -2,11 +2,13 @@
   from = "https://olivermak.es/*"
   to = "https://oliverpattison.com/"
   status = 301
+  force = true
   
 [[redirects]]
   from = "https://www.olivermak.es/*"
   to = "https://oliverpattison.com/"
   status = 301
+  force = true
   
 [[ redirects ]]
   from = "https://oliverpattison.netlify.com/*"
