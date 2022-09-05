@@ -72,11 +72,8 @@ hr::after {
 .grid {
   display: flex;
   flex-flow: column nowrap;
+  gap: .5em;
   list-style: none;
-}
-
-.grid-item {
-  margin: .5em 0;
 }
 
 .grid-image {
@@ -128,14 +125,11 @@ hr::after {
   .grid {
     flex-flow: row wrap;
     list-style: none;
-    margin-left: -.5em;
-    width: calc(100% + 1em);
+    width: calc(100% + .5em);
   }
   
   .grid-item {
-    flex: 0 0 calc(50% - 1em);
-    max-width: 50%;
-    margin: .5em;
+    flex: 0 0 calc(50% - .5em);
   }
 }
 
