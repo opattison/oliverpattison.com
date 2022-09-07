@@ -7,8 +7,13 @@ layout: base.njk
 {% markdown introduction %}
 {% markdown callout  %}
 </section>
+<ul class="grid--mini">
+{% for image in about.images %}
+  <li class="grid-item--mini">{% image_portfolio image.src, image.alt %}</li>
+{% endfor %}
+</ul>
 <section class="page--about">
 {{ content | safe }}
-<hr>
-<p><a href="/">back to portfolio</a></p>
+  <hr>
+  <p><a href="/">back to portfolio</a></p>
 </section>
