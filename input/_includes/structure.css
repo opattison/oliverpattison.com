@@ -86,11 +86,6 @@ hr::after {
   flex: 1 0 calc(33% - .5em);
 }
 
-.grid-image {
-  max-width: none;
-  width: 100%;
-}
-
 .profile {
   margin: 2em -2em 0 0;
   max-width: none;
