@@ -82,12 +82,15 @@ hr::after {
   gap: .5em;
 }
 
+.grid-item {
+  flex: 1 0 100%;
+}
+
 .grid-item--mini {
   flex: 1 0 calc(33% - .5em);
 }
 
 .grid-image {
-  max-width: none;
   width: 100%;
 }
 
