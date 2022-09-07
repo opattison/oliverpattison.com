@@ -71,9 +71,13 @@ hr::after {
 
 .grid {
   display: flex;
-  flex-flow: column nowrap;
-  gap: .5em;
+  flex-flow: row wrap;
+  gap: 1em;
   list-style: none;
+}
+
+.grid-item {
+  flex: 1 0 15em;
 }
 
 .grid-image {
@@ -120,16 +124,6 @@ hr::after {
   
   .subtitle {
     font-size: 1.28em;
-  }
-  
-  .grid {
-    flex-flow: row wrap;
-    list-style: none;
-    width: calc(100% + .5em);
-  }
-  
-  .grid-item {
-    flex: 0 0 calc(50% - .5em);
   }
 }
 
@@ -183,6 +177,10 @@ hr::after {
   
   .profile {
     max-width: 25em;
+  }
+  
+  .grid-item {
+    flex: 1 0 22em;
   }
   
   .location {
