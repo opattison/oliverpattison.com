@@ -64,6 +64,8 @@ hr::after {
 
 .nav-list {
   display: flex;
+  font-size: 1.25em;
+  font-weight: 300;
   justify-content: flex-end;
   list-style: none;
 }
