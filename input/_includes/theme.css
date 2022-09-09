@@ -46,19 +46,24 @@ a:hover {
   color: hsl(var(--color-accent) var(--light-f2));
 }
 
-footer {
+footer,
+.nav--bottom {
   background-color: hsl(var(--color-primary) var(--light-b7));
   color: hsl(var(--color-primary) var(--light-f9));
 }
 
 footer a,
-footer a:visited {
+footer a:visited,
+.nav--bottom a,
+.nav--bottom a:visited {
   color: hsl(var(--color-primary) var(--light-f8));
   text-decoration: underline;
 }
 
 footer a:focus,
-footer a:hover {
+footer a:hover,
+.nav--bottom a:focus,
+.nav--bottom a:hover {
   color: hsl(var(--color-accent) var(--light-f7));
 }
 

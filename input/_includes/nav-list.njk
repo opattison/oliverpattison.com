@@ -1,0 +1,10 @@
+<ul class="nav-list">
+  {% if page.url == '/about/' %}<li class="nav-list-item"><a href="/">home</a></li>
+  {% else %}
+  <li class="nav-list-item">home</li>
+  {% endif %}
+  {% if page.url == '/' %}<li class="nav-list-item"><a href="/about/">about</a></li>
+  {% else %}
+  <li class="nav-list-item">about</li>
+  {% endif %}
+</ul>

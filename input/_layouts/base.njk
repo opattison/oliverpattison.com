@@ -55,16 +55,7 @@ portrait:
 	</head>
 	<body>
 		<nav>
-			<ul class="navlist">
-				{% if page.url == '/about/' %}<li class="navlist-item"><a href="/">home</a></li>
-				{% else %}
-				<li class="navlist-item">home</li>
-				{% endif %}
-				{% if page.url == '/' %}<li class="navlist-item"><a href="/about/">about</a></li>
-				{% else %}
-				<li class="navlist-item">about</li>
-				{% endif %}
-			</ul>
+			{% include 'nav-list.njk' %}
 		</nav>
 		<header class="heading">
 			<a class="home" href="/"><h1 class="title">{{ title }}</h1></a>
@@ -85,5 +76,8 @@ portrait:
 				<p>Print portfolio available on request.</p>
 			</div>
 		</footer>
+		<nav class="nav--bottom">
+			{% include 'nav-list.njk' %}
+		</nav>
 	</body>
 </html>
