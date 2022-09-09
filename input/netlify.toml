@@ -15,3 +15,33 @@
   to = "https://oliverpattison.com/"
   status = 301
   force = true
+  
+[[redirects]]
+    from = "https://olivermak.es/*"
+    to = "https://oliverpattison.com/"
+    status = 301
+    force = true
+    
+  [[redirects]]
+    from = "https://www.olivermak.es/*"
+    to = "https://oliverpattison.com/"
+    status = 301
+    force = true
+    
+  [[ redirects ]]
+    from = "https://oliverpattison.netlify.com/*"
+    to = "https://oliverpattison.com/"
+    status = 301
+    force = true
+    
+  [[headers]]
+    for = "/*.woff"
+    [headers.values]
+      Access-Control-Allow-Origin = "*"
+      Content-Type = "application/font-woff"
+        
+  [[headers]]
+    for = "/*.woff2"
+    [headers.values]
+      Access-Control-Allow-Origin = "*"
+      Content-Type = "application/font-woff2"
