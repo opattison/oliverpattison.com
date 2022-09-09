@@ -38,6 +38,7 @@
 a,
 a:visited {
   color: hsl(var(--color-primary) var(--light-f0));
+  font-weight: 500;
   text-decoration: underline;
 }
 
