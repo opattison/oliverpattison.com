@@ -113,16 +113,8 @@ hr::after {
 }
 
 .contact-item {
-  display: inline;
-}
-
-.contact-item::after {
-  content: ' —';
-  margin: 0 .25em;
-}
-
-.contact-item:last-child::after {
-  content: '';
+  display: block;
+  margin-top: 1em;
 }
 
 .location {
@@ -185,9 +177,5 @@ hr::after {
   
   .grid-item--mini {
     flex: 1 1 1em;
-  }
-
-  .location {
-    margin-left: 50%;
   }
 }
