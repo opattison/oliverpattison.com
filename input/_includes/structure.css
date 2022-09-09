@@ -62,14 +62,23 @@ hr::after {
   margin-top: .125em;
 }
 
-.navlist {
+.nav-list {
   display: flex;
   justify-content: flex-end;
   list-style: none;
 }
 
-.navlist-item {
-  padding-left: 1em;
+.nav-list-item {
+  padding-left: .5em;
+}
+
+.nav-list-item:after {
+  content: '/';
+  padding-left: .5em;
+}
+
+.nav-list-item:last-of-type:after {
+  content: none;
 }
 
 .grid,
