@@ -2,7 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 1rem;
-  font-size: calc(.75vw + .6rem);
+  font-size: calc(.8vw + .8rem);
   margin: 0;
 }
 
@@ -48,25 +48,39 @@ hr::after {
   text-decoration: none;
 }
 
-.title {
-  font-size: 1.5em;
+.title,
+.subtitle {
   line-height: 1;
+}
+
+.title {
+  letter-spacing: .045em;
 }
 
 .subtitle {
-  font-size: .96em;
-  line-height: 1;
-  margin-top: .5em;
+  letter-spacing: .025em;
+  margin-top: .125em;
 }
 
-.navlist {
+.nav-list {
   display: flex;
+  font-size: 1.125em;
+  font-weight: 300;
   justify-content: flex-end;
   list-style: none;
 }
 
-.navlist-item {
-  padding-left: 1em;
+.nav-list-item {
+  padding-left: .5em;
+}
+
+.nav-list-item:after {
+  content: '/';
+  padding-left: .5em;
+}
+
+.nav-list-item:last-of-type:after {
+  content: none;
 }
 
 .grid,
@@ -110,30 +124,12 @@ hr::after {
 }
 
 .contact-item {
-  display: inline;
-}
-
-.contact-item::after {
-  content: ' —';
-  margin: 0 .25em;
-}
-
-.contact-item:last-child::after {
-  content: '';
+  display: block;
+  margin-top: 1em;
 }
 
 .location {
   margin-top: 2em;
-}
-
-@media screen and (min-width: 28em) {
-  .title {
-    font-size: 2em;
-  }
-  
-  .subtitle {
-    font-size: 1.28em;
-  }
 }
 
 @media screen and (min-width: 35em) {
@@ -146,26 +142,16 @@ hr::after {
   }
   
   main {
-    padding: 3em 3em 4em;
+    padding: 2em 3em 4em;
   }
   
   footer {
     padding: 3em;
   }
   
-  .title {
-    font-size: 2.5em;
-    line-height: 1;
-  }
-  
-  .subtitle {
-    font-size: 1.6em;
-    line-height: 1;
-  }
-  
   .profile {
     float: right;
-    margin: -2em -3em 2em 3em;
+    margin: -1em -3em 2em 2em;
     padding: 0;
     width: calc(50% + 1em);
   }
@@ -202,9 +188,5 @@ hr::after {
   
   .grid-item--mini {
     flex: 1 1 1em;
-  }
-
-  .location {
-    text-align: right;
   }
 }
