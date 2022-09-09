@@ -2,7 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 1rem;
-  font-size: calc(.75vw + .6rem);
+  font-size: calc(.8vw + .8rem);
   margin: 0;
 }
 
@@ -48,15 +48,18 @@ hr::after {
   text-decoration: none;
 }
 
-.title {
-  font-size: 1.5em;
+.title,
+.subtitle {
   line-height: 1;
 }
 
+.title {
+  letter-spacing: .045em;
+}
+
 .subtitle {
-  font-size: .96em;
-  line-height: 1;
-  margin-top: .5em;
+  letter-spacing: .025em;
+  margin-top: .125em;
 }
 
 .navlist {
@@ -126,16 +129,6 @@ hr::after {
   margin-top: 2em;
 }
 
-@media screen and (min-width: 28em) {
-  .title {
-    font-size: 2em;
-  }
-  
-  .subtitle {
-    font-size: 1.28em;
-  }
-}
-
 @media screen and (min-width: 35em) {
   nav {
     padding: 1em 3em;
@@ -146,26 +139,16 @@ hr::after {
   }
   
   main {
-    padding: 3em 3em 4em;
+    padding: 2em 3em 4em;
   }
   
   footer {
     padding: 3em;
   }
   
-  .title {
-    font-size: 2.5em;
-    line-height: 1;
-  }
-  
-  .subtitle {
-    font-size: 1.6em;
-    line-height: 1;
-  }
-  
   .profile {
     float: right;
-    margin: -2em -3em 2em 3em;
+    margin: -1em -3em 2em 2em;
     padding: 0;
     width: calc(50% + 1em);
   }
@@ -205,6 +188,6 @@ hr::after {
   }
 
   .location {
-    text-align: right;
+    margin-left: 50%;
   }
 }
