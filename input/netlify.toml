@@ -15,3 +15,15 @@
   to = "https://oliverpattison.com/"
   status = 301
   force = true
+
+[[headers]]
+  for = "/fonts/*.woff"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Content-Type = "gifont/woff"
+
+[[headers]]
+  for = "/fonts/*.woff2"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Content-Type = "font/woff2"
