@@ -15,3 +15,9 @@
   to = "https://oliverpattison.com/"
   status = 301
   force = true
+
+[[headers]]
+  for = "/fonts/*.woff2"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Content-Type = "font/woff2"
