@@ -20,7 +20,7 @@
   for = "/fonts/*.woff"
   [headers.values]
     Access-Control-Allow-Origin = "*"
-    Content-Type = "gifont/woff"
+    Content-Type = "font/woff"
 
 [[headers]]
   for = "/fonts/*.woff2"
