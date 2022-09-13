@@ -36,6 +36,12 @@ p {
   margin: 1em 0 0;
 }
 
+ul {
+  margin: 1em 0 0;
+  line-height: 1.5;
+  list-style-type: square;
+}
+
 hr {
   margin: 2em 0;
 }
