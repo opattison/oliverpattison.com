@@ -4,8 +4,8 @@ layout: base.njk
 
 {% image_profile portrait.src, portrait.alt %}
 <section class="introduction--about">
-{% markdown introduction %}
-{% markdown callout  %}
+{% if introduction %}{% markdown introduction %}{% endif %}
+{% if callout %}{% markdown callout %}{% endif %}
 </section>
 <ul class="grid--mini">
 {% for image in about.images %}
