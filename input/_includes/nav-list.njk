@@ -1,10 +1,14 @@
 <ul class="nav-list">
-  {% if page.url == '/about/' %}<li class="nav-list-item"><a href="/">home</a></li>
+  {% if page.url == '/' %}<li class="nav-list-item">home</li>
   {% else %}
-  <li class="nav-list-item">home</li>
+  <li class="nav-list-item"><a href="/">home</a></li>
   {% endif %}
-  {% if page.url == '/' %}<li class="nav-list-item"><a href="/about/">about</a></li>
+  {% if page.url == '/stories/' %}<li class="nav-list-item">stories</li>
   {% else %}
-  <li class="nav-list-item">about</li>
+  <li class="nav-list-item"><a href="/stories/">stories</a></li>
+  {% endif %}
+  {% if page.url == '/about/' %}<li class="nav-list-item">about</li>
+  {% else %}
+  <li class="nav-list-item"><a href="/about/">about</a></li>
   {% endif %}
 </ul>
