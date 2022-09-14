@@ -1,11 +1,12 @@
 ---
 layout: base.njk
+image_folder: portfolio
 ---
 
 <section class="page--portfolio">
   <ul class="grid">
   {% for image in portfolio.images %}
-    <li class="grid-item">{% image_portfolio image.src, image.alt %}</li>
+    <li class="grid-item">{% image_portfolio image_folder, image.src, image.alt %}</li>
   {% endfor %}
   </ul>
 </section>
