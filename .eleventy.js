@@ -90,7 +90,7 @@ module.exports = function(eleventyConfig) {
     };
   });
   
-  eleventyConfig.addShortcode("photo_full", (path, alt) => {
+  eleventyConfig.addShortcode("photo", (path, alt) => {
     const defaultWidth = 1026;
     const defaultHeight = 684;
     const srcDev = basePath + path;
@@ -107,13 +107,13 @@ module.exports = function(eleventyConfig) {
       { widths: [699, 900, 1026, 1101, 1299, 1500, 2052] }
     );
     
-    const sizes = "95vw";
-    
+    const sizes = "calc(100vw - 2em)";
+        
     if (process.env.NODE_ENV === 'development') {
-      return `<img src="${srcDev}" alt="${alt}" class="photo--full">`;
+      return `<img src="${srcDev}" alt="${alt}" class="grid-image">`;
     }
     else {
-      return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="photo--full">`;
+      return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="grid-image">`;
     };
   });
   

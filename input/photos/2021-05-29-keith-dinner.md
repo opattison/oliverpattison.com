@@ -5,4 +5,5 @@ tags:
 images:
   - src: '2021-05-29-keith-dinner.jpg'
     alt: 'Keith at dinner'
+    style: full
 ---
