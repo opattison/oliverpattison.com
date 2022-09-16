@@ -7,13 +7,13 @@ tags:
 introduction:
   '## Pikes Peak A-Frame repair project'
 images:
+  - src: '2022-pikes-peak-aframe/03.jpg'
+    alt: ''
   - src: '2022-pikes-peak-aframe/00.jpg'
     alt: ''
   - src: '2022-pikes-peak-aframe/01.jpg'
     alt: ''
   - src: '2022-pikes-peak-aframe/02.jpg'
-    alt: ''
-  - src: '2022-pikes-peak-aframe/03.jpg'
     alt: ''
   - src: '2022-pikes-peak-aframe/05.jpg'
     alt: ''
