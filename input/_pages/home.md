@@ -1,6 +1,8 @@
 ---
+title: 'Oliver Pattison – Documentary Photography'
 layout: home.njk
 permalink: /
+eleventyExcludeFromCollections: true
 ---
 
 I am a photographer who shoots in a documentary style for individuals, families, and businesses. 

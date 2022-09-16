@@ -2,18 +2,15 @@
 layout: base.njk
 ---
 
-{% image_profile portrait.src, portrait.alt %}
-<section class="introduction--about">
-{% markdown introduction %}
-{% markdown callout  %}
-</section>
-<ul class="grid--mini">
-{% for image in about.images %}
-  <li class="grid-item--mini">{% image_portfolio image.src, image.alt %}</li>
-{% endfor %}
-</ul>
-<section class="page--about">
-{{ content | safe }}
+<main class="page--about">
+  {% photo_profile portrait.src, portrait.alt %}
+  <section class="introduction--about">
+  {% if introduction %}{% markdown introduction %}{% endif %}
+  {% if callout %}{% markdown callout %}{% endif %}
+  </section>
+  <section class="content--about">
+  {{ content | safe }}
   <hr>
-  <p><a href="/">back to portfolio</a></p>
-</section>
+  {% include 'nav-home.njk' %}
+  </section>
+</main>
