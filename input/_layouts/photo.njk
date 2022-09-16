@@ -3,8 +3,9 @@ layout: base.njk
 ---
 
 <main class="page--photo">
-{% if introduction %}{% markdown introduction %}{% endif %}
-  
+{% if introduction %}
+  <section class="introduction--photo">{% markdown introduction %}</section>
+{% endif %} 
   <section class="grid--photo">
   {% for image in images %}
     {% set src = image.src %}

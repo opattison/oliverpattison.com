@@ -91,15 +91,7 @@ hr::after {
   margin-top: -2em;
 }
 
-.introduction {
-  margin: 1em -3em -4em 0;
-  padding: 1em 3em 2em 1em;
-}
-
-.introduction p:first-of-type {
-  margin-top: 0;
-}
-
+.introduction,
 .introduction--about {
   margin-top: 1em;
 }
@@ -240,13 +232,13 @@ hr::after {
 
 @media screen and (min-width: 52em) {
   .grid--photo,
-  .content--photo {
+  .content--photo,
+  .introduction--photo {
     margin: 2em 4em;
   }
   
   .introduction {
-    padding: 1em 3em 2em 1em;
-    margin: 1em -3em -4em calc(50% + .5em);
+    margin: 1em 0 0 calc(50% + .5em);
   }
   
   .introduction--about {
