@@ -6,6 +6,8 @@ tags:
   - portfolio
 introduction: '
   ## Pikes Peak A-Frame repair project
+  
+  In August 2022, a group of volunteers with [Colorado Mountain Club](https://www.cmc.org) set out to repair the A-Frame shelter on Barr Trail, the 12.5 mile trail that winds from Manitou Springs to the summit of Pikes Peak. This is a document of their work.
   '
 images:
   - src: '2022-pikes-peak-aframe/25.jpg'
