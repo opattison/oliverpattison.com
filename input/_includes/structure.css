@@ -241,7 +241,7 @@ hr::after {
 @media screen and (min-width: 52em) {
   .grid--photo,
   .content--photo {
-    margin: 0 4em;
+    margin: 2em 4em;
   }
   
   .introduction {
