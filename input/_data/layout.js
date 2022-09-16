@@ -1,0 +1,1 @@
+module.exports = "photo.njk"
