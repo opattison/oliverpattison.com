@@ -1,8 +1,11 @@
 ---
 date: '2022-08-27T14:00:00'
+title: 'Pikes Peak A-Frame repair project'
 tags:
   - story
   - portfolio
+introduction:
+  '## Pikes Peak A-Frame repair project'
 images:
   - src: '2022-pikes-peak-aframe/00.jpg'
     alt: ''
@@ -78,3 +81,4 @@ images:
     alt: ''
 
 ---
+

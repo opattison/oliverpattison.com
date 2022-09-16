@@ -1,4 +1,5 @@
 ---
+title: 'About – Oliver Pattison'
 layout: about.njk
 permalink: /about/
 eleventyExcludeFromCollections: true

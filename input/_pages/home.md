@@ -1,4 +1,5 @@
 ---
+title: 'Oliver Pattison – Documentary Photography'
 layout: home.njk
 permalink: /
 eleventyExcludeFromCollections: true
