@@ -4,9 +4,16 @@ title: 'Pikes Peak A-Frame repair project'
 tags:
   - story
   - portfolio
+introduction: '
+  ## Pikes Peak A-Frame repair project
+  '
 images:
-  - src: '2022-pikes-peak-aframe/03.jpg'
-    alt: 'a view of the summit house on the top of Pikes Peak'
+  - src: '2022-pikes-peak-aframe/25.jpg'
+    alt: 'people working on a construction scene at the Pikes Peak A-Frame'
+    style: full
+  - src: '2022-pikes-peak-aframe/05.jpg'
+    alt: ''
+    style: full
   - src: '2022-pikes-peak-aframe/00.jpg'
     alt: ''
     style: third
@@ -16,9 +23,8 @@ images:
   - src: '2022-pikes-peak-aframe/02.jpg'
     alt: ''
     style: third
-  - src: '2022-pikes-peak-aframe/05.jpg'
-    alt: ''
-    style: full
+  - src: '2022-pikes-peak-aframe/03.jpg'
+    alt: 'a view of the summit house on the top of Pikes Peak'
   - src: '2022-pikes-peak-aframe/04.jpg'
     alt: ''
     style: right
@@ -78,7 +84,7 @@ images:
     style: half
   - src: '2022-pikes-peak-aframe/25.jpg'
     alt: 'people working on a construction scene at the Pikes Peak A-Frame'
-    style: full
+    style: center
   - src: '2022-pikes-peak-aframe/26.jpg'
     alt: ''
     style: left
