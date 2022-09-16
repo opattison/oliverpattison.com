@@ -1,0 +1,26 @@
+---
+layout: base.njk
+---
+
+<main class="page--photo">
+{% if introduction %}
+  <section class="introduction--photo">{% markdown introduction %}</section>
+{% endif %} 
+  <section class="grid--photo">
+  {% for image in images %}
+    {% set src = image.src %}
+    {% set alt = image.alt %}
+    {% set style = image.style %}
+    
+    <figure class="grid-item--photo grid-item--photo{% if style %}--{{ style }}{% endif %}">
+    {% photo src, alt %}
+    </figure>
+  {% endfor %}
+  </section>
+  
+  <section class="content--photo">
+  {{ content | safe }}
+  <hr>
+  {% include 'nav-home.njk' %}
+  </section>
+</main>

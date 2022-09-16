@@ -1,5 +1,5 @@
 ---
-title: Oliver Pattison
+name: Oliver Pattison
 subtitle: documentary photography
 description: A professional documentary photographer for families and small businesses in Colorado Springs.
 url: 'https://oliverpattison.com'
@@ -60,12 +60,10 @@ portrait:
 			{% include 'nav-list.njk' %}
 		</nav>
 		<header class="heading">
-			<a class="home" href="/"><h1 class="title">{{ title }}</h1></a>
+			<a class="home" href="/"><h1 class="title">{{ name }}</h1></a>
 			<h2 class="subtitle">{{ subtitle }}</h2>
 		</header>
-		<main>
-			{{ content | safe }}
-		</main>
+		{{ content | safe }}
 		<footer>
 			<div class="contact">
 				<ul class="contact-list">
