@@ -112,10 +112,15 @@ hr::after {
   width: 100%;
 }
 
-.profile {
+.photo--profile {
   margin: 2em -2em 0 0;
   max-width: none;
   width: calc(100% + 2em);
+}
+
+.photo--full {
+  margin: 1em 0;
+  width: 100%;
 }
 
 .contact {
@@ -153,7 +158,7 @@ hr::after {
     padding: 3em;
   }
   
-  .profile {
+  .photo--profile {
     float: right;
     margin: -1em -3em 2em 2em;
     padding: 0;
@@ -182,7 +187,7 @@ hr::after {
     margin: 4em 0 0 25%;
   }
   
-  .profile {
+  .photo--profile {
     max-width: 25em;
   }
   

@@ -1,12 +1,23 @@
 ---
 layout: base.njk
-image_folder: portfolio
 ---
 
 <section class="page--portfolio">
   <ul class="grid">
-  {% for image in portfolio.images %}
-    <li class="grid-item">{% image_portfolio image_folder, image.src, image.alt %}</li>
+  {% for item in portfolio.images %}
+    {% set title = item.title %}
+    {% if item.index %}
+      {% set index = item.index %}
+    {% else %}
+      {% set index = 0 %}
+    {% endif %}
+    {% for post in collections.portfolio %}
+      {% if post.fileSlug == title %}
+        {% set src = post.data.images[index].src %}        
+        {% set alt = post.data.images[index].alt %}
+        <li class="grid-item"><a href="{{ post.url }}">{% grid_image src, alt %}</a></li>
+      {% endif %}
+    {% endfor %}
   {% endfor %}
   </ul>
 </section>
