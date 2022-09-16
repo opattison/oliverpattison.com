@@ -2,7 +2,7 @@
 layout: base.njk
 ---
 
-<section class="page--photo">
+<main class="page--photo">
 {% if introduction %}{% markdown introduction %}{% endif %}
 
 {% for image in images %}
@@ -13,4 +13,4 @@ layout: base.njk
 {% endfor %}
 {{ content | safe }}
 {% include 'nav-home.njk' %}
-</section>
+</main>

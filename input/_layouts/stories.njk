@@ -2,12 +2,18 @@
 layout: base.njk
 ---
 
-<section class="page--stories">
-  <ul>
+<main class="page--stories">
+  <h2>stories</h2>
+  <ul class="grid--stories">
   {% for post in collections.story | reverse %}
-    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+    {% set src = post.data.images[0].src %}
+    {% set alt = post.data.images[0].alt %}
+    <li class="grid-item">
+      <a href="{{ post.url }}">{% grid_image src, alt %}</a>
+      <a href="{{ post.url }}">{{ post.data.title }}</a>
+    </li>
   {% endfor %}
   </ul>
 {{ content | safe }}
 {% include 'nav-home.njk' %}
-</section>
+</main>
