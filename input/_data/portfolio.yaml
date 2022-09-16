@@ -1,25 +1,22 @@
 images:
-  - src: '2020-07-10-jean-portrait.jpg'
-    alt: 'a portrait of Jean at sunset'
-  - src: '2021-05-29-keith-dinner.jpg'
-    alt: 'Keith at dinner'
-  - src: '2022-08-27-mountain-portrait.jpg'
-    alt: 'a portrait of hiker in early morning light on top of a mountain'
-  - src: '2021-09-22-ian-portrait.jpg'
-    alt: 'a portrait of Ian at sunrise'
-  - src: '2021-09-22-ian-profile.jpg'
-    alt: 'Ian standing and looking with mountains in the background'
-  - src: '2021-10-03-sapphie-mountaintop.jpg'
-    alt: 'a portrait of Sapphie the dog standing on top of a mountain'
-  - src: '2022-08-27-aframe-wide.jpg'
-    alt: 'people working on a construction scene at the Pikes Peak A-Frame'
-  - src: '2022-08-27-aframe-roof.jpg'
-    alt: 'a smiling person peeking over the roof of the Pikes Peak A-Frame'
-  - src: '2022-07-17-ellis-party.jpg'
-    alt: 'Ellis, a man with a moustache smiling at a party'
-  - src: '2021-10-19-dogs-playing.jpg'
-    alt: 'two dogs locked in a play fight, mirroring each other'
-  - src: '2021-10-19-rhys.jpg'
-    alt: 'a dog smiling at the camera, covering a person’s face'
-  - src: '2021-04-23-snowy-hike.jpg'
-    alt: 'Jean and Sapphie hiking in the snow'
+  - title: 'jean-portrait'
+  - title: 'keith-dinner'
+  - title: '2022-pikes-peak-aframe'
+    index: 7
+  - title: '2021-ian'
+    index: 0
+  - title: '2021-ian'
+    index: 1
+  - title: '2021-cottonwood'
+    index: 0
+  - title: 'pikes-peak-aframe'
+    index: 22
+  - title: 'pikes-peak-aframe'
+    index: 25
+  - title: '2021-rhys-and-sapphie'
+    index: 0
+  - title: '2021-rhys-and-sapphie'
+    index: 1
+  - title: '2022-social'
+    index: 0
+  - title: '2021-lake-city'
