@@ -71,3 +71,7 @@ footer a:hover,
 .subtitle {
   color: hsl(var(--color-primary) var(--light-f5));
 }
+
+.introduction {
+  background-color: hsl(var(--color-primary) var(--light-b0));
+}
