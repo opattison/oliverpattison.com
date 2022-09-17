@@ -6,16 +6,8 @@ body {
   margin: 0;
 }
 
-nav {
-  padding: 1em 2em;
-}
-
 header {
   padding: 1em 2em;
-}
-
-main {
-  padding: 1em 2em 4em;
 }
 
 footer {
@@ -50,6 +42,10 @@ hr::after {
   content: '– – –'
 }
 
+.page {
+  padding: 2em 2em 3em;
+}
+
 .home {
   text-decoration: none;
 }
@@ -68,10 +64,20 @@ hr::after {
   margin-top: .125em;
 }
 
-.nav-list {
+.nav-list,
+.nav-list--home {
   display: flex;
+  margin: 0;
   justify-content: flex-end;
   list-style: none;
+}
+
+.nav--bottom {
+  margin-top: 2em;
+}
+
+.nav-list--home {
+  margin-top: 4em;
 }
 
 .nav-list-item {
@@ -157,20 +163,16 @@ hr::after {
 }
 
 @media screen and (min-width: 35em) {
-  nav {
-    padding: 1em 3em;
-  }
-  
   header {
     padding: 2em 3em;
   }
   
-  main {
-    padding: 2em 3em 4em;
-  }
-  
   footer {
     padding: 3em;
+  }
+  
+  .page {
+    padding: 2em 3em 3em;
   }
   
   .photo--profile {

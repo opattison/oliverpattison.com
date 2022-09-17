@@ -2,27 +2,29 @@
 layout: base.njk
 ---
 
-<main class="page--home">
-  <section class="content--home">
-    <ul class="grid">
-    {% for item in portfolio.images %}
-      {% set title = item.title %}
-      {% if item.index %}
-        {% set index = item.index %}
-      {% else %}
-        {% set index = 0 %}
-      {% endif %}
-      {% for post in collections.portfolio %}
-        {% if post.fileSlug == title %}
-          {% set src = post.data.images[index].src %}        
-          {% set alt = post.data.images[index].alt %}
-          <li class="grid-item"><a href="{{ post.url }}">{% grid_image src, alt %}</a></li>
+<div class="page page--home">
+  <main>
+    <section class="content--home">
+      <ul class="grid">
+      {% for item in portfolio.images %}
+        {% set title = item.title %}
+        {% if item.index %}
+          {% set index = item.index %}
+        {% else %}
+          {% set index = 0 %}
         {% endif %}
+        {% for post in collections.portfolio %}
+          {% if post.fileSlug == title %}
+            {% set src = post.data.images[index].src %}        
+            {% set alt = post.data.images[index].alt %}
+            <li class="grid-item"><a href="{{ post.url }}">{% grid_image src, alt %}</a></li>
+          {% endif %}
+        {% endfor %}
       {% endfor %}
-    {% endfor %}
-    </ul>
-  </section>
-  <section class="introduction">
-    {{ content | safe }}
-  </section>
-</main>
+      </ul>
+    </section>
+    <section class="introduction">
+      {{ content | safe }}
+    </section>
+  </main>
+</div>
