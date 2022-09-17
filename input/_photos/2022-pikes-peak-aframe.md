@@ -1,6 +1,6 @@
 ---
-date: '2022-08-27T14:00:00'
 title: 'Pikes Peak A-Frame repair project'
+date: '2022-08-27T14:00:00'
 tags:
   - story
   - portfolio
