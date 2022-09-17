@@ -1,4 +1,5 @@
 ---
+title: Lake City hiking
 date: '2021-04-23T12:00:00'
 tags:
   - portfolio
