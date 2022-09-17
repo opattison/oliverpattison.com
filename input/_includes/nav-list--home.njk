@@ -1,0 +1,8 @@
+<ul class="nav-list--home">
+  <li class="nav-list-item"><a href="/">back to portfolio</a></li>
+  {% if page.url !== '/stories/' %}
+  {% if page.url !== '/about/' %}
+  <li class="nav-list-item"><a href="/stories/">back to stories</a>
+  {% endif %}
+  {% endif %}
+</ul>
