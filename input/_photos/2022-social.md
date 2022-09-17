@@ -1,4 +1,5 @@
 ---
+title: photos of friends
 date: '2022-07-17T12:00:00'
 tags:
   - portfolio
