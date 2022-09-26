@@ -26,8 +26,13 @@ portrait:
 		<meta property="og:title" content="{{ title }}">
 		<meta property="og:description" content="{{ description }}">
 		<meta property="og:type" content="profile">
+		{% if images %}
+		<meta property="og:image" content="{% image_og images[0].src %}">
+		<meta property="og:image:alt" content="{{ images[0].alt }}">
+		{% else %}
 		<meta property="og:image" content="{% image_og portrait.src %}">
-		<meta property="og:image:alt" content="{{ portrait.alt }}"> 
+		<meta property="og:image:alt" content="{{ portrait.alt }}">
+		{% endif %}
 		<meta property="og:image:type" content="image/jpeg">
 		<meta property="og:image:width" content="1200">
 		<meta property="og:image:height" content="630">
