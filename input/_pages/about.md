@@ -7,7 +7,7 @@ introduction:
   'I take pictures in a humanistic style for individuals, families, and businesses who want a realistic document of their life or work.
   
   
-  I shoot in a quick and candid style, with subjects in their natural environments. I tend to take mostly unposed pictures, but I can also collaborate with you to create a scene or story. I am a careful editor who can help shape a narrative for you and deliver consistent results in a distinctive style. I want to help you create honest and emotional photography, whether through a portrait or framing a small moment in your life.'
+  I shoot in a quick and candid style, with subjects in their natural environments. I tend to take mostly unposed pictures, but I can also collaborate with you to create a scene or story. I am a careful editor who can help shape a narrative for you and deliver consistent results in a distinctive style. I want to help you create honest and emotional photography, whether through a portrait or framing a small moment in your life or work.'
 callout: 
   '[Say hello](mailto:hello@oliverpattison.com) and let me know what you’re looking for.'
 ---
@@ -26,4 +26,4 @@ You’ll want to hire me because:
 - I’m friendly and easy to work with.
 - I know my photography gear and related technical skills, but I won’t bore you with it.
 - I am willing to spend a long time with a subject or scene to get results, but I don’t waste time when actually taking pictures.
-- You want something authentic and unposed that is not a mere snapshot.
+- You prefer unposed or candid photography.
