@@ -11,5 +11,5 @@ professional documentary photography website
 
 ## license
 
-© [code licensed ISC](https://choosealicense.com/licenses/isc/)
-© all photos and writing copyright Oliver Pattison 
+- © [code licensed ISC](https://choosealicense.com/licenses/isc/)
+- © all photos and writing copyright [Oliver Pattison](https://oliverpattison.com)
