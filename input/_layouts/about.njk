@@ -9,6 +9,11 @@ layout: base.njk
     {% if introduction %}{% markdown introduction %}{% endif %}
     {% if callout %}{% markdown callout %}{% endif %}
     </section>
+    <ul class="grid--mini">
+     {% for image in about.images %}
+      <li class="grid-item--mini">{% grid_image image.src, image.alt %}</li>
+    {% endfor %}
+    </ul>
     <section class="content--about">
     {{ content | safe }}
     </section>
