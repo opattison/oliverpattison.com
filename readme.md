@@ -8,3 +8,8 @@ professional documentary photography website
 - [Netlify hosting](https://www.netlify.com)
 - [Imgix image processing](https://imgix.com)
 - [IBM Plex typography](https://www.ibm.com/plex/)
+
+## license
+
+© [code licensed ISC](https://choosealicense.com/licenses/isc/)
+© all photos and writing copyright Oliver Pattison 
