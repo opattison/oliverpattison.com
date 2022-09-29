@@ -1,5 +1,6 @@
 ---
 title: 'Cottonwood Pass hiking'
+description: 'Photos from a hike on Cottonwood Pass on the continental divide in Western Colorado.'
 date: '2021-10-03T12:00:00'
 tags:
   - portfolio
