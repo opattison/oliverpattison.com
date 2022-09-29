@@ -1,5 +1,6 @@
 ---
 title: 'Pikes Peak A-Frame repair project'
+description: 'A photo essay about the repair of the A-Frame shelter on Barr Trail, Pikes Peak.'
 date: '2022-08-27T14:00:00'
 tags:
   - story
