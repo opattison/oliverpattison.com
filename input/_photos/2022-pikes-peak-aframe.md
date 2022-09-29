@@ -113,9 +113,15 @@ images:
     style: half
   - src: '2022-pikes-peak-aframe/34.jpg'
     alt: ''
-    style: right
+    style: left
   - src: '2022-pikes-peak-aframe/35.jpg'
     alt: ''
+    style: left
 
 ---
 
+The A-Frame shelter is a special place. Marking the tree line on Barr Trail, this spot has a scenic view of downtown Colorado Springs, and is a safe resting point before the final climb to the summit of Pikes Peak. Whenever I hike here, I almost always take a stop here to refill water at the creek, and to reflect on the hike ahead. Along with [Barr Camp](https://barrcamp.com), this refuge for camping and picnicking makes Barr Trail one of the most hospitable and friendly fourteener trails in Colorado.
+
+I took on this project as a part of my interest in documenting Barr Trail and its rich social life. It was impressive to see these volunteers from Colorado Springs and beyond come together to maintain and repair the A-Frame. Since 1964, the shelter has been maintained by the US Forest Service, and since 1999, Colorado Mountain Club has taken on the responsibility, rebuilding the roof and repainting the shelter in 2008. 37 volunteers returned for this summer 2022 multi-weekend project.
+
+It is a massive amount of work, bringing construction materials down by foot from the Pikes Peak summit. There is no way to bring a vehicle to this point of the trail, so these volunteers carried half a ton of materials down the mountain – 3 and a half miles down over 2000 feet of elevation. Volunteers worked together to repaint the interior, remove the existing roof, install the new roof, and replace the wooden supports.
