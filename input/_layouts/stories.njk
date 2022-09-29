@@ -4,7 +4,6 @@ layout: base.njk
 
 <div class="page page--stories">
   <main>
-    <h2>stories</h2>
     <ul class="grid--stories">
     {% for post in collections.story | reverse %}
       {% set src = post.data.images[0].src %}
