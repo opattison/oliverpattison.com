@@ -97,10 +97,6 @@ hr::after {
   content: none;
 }
 
-.page--stories {
-  margin-top: -2em;
-}
-
 .introduction,
 .introduction--about {
   margin-top: 1em;
