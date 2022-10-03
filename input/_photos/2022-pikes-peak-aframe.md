@@ -15,48 +15,48 @@ images:
     alt: 'people working on a construction scene at the Pikes Peak A-Frame'
     style: full
   - src: '2022-pikes-peak-aframe/05.jpg'
-    alt: ''
+    alt: 'a sunrise view of Almagre Peak from the summit'
     style: full
   - src: '2022-pikes-peak-aframe/00.jpg'
-    alt: ''
+    alt: 'donuts and coffee at the summit house'
     style: third
   - src: '2022-pikes-peak-aframe/01.jpg'
-    alt: ''
+    alt: 'tying boots before the hike'
     style: third
   - src: '2022-pikes-peak-aframe/02.jpg'
-    alt: ''
+    alt: 'talking through the project'
     style: third
   - src: '2022-pikes-peak-aframe/03.jpg'
     alt: 'a view of the summit house on the top of Pikes Peak'
   - src: '2022-pikes-peak-aframe/04.jpg'
-    alt: ''
+    alt: 'silhouettes of volunteers on the summit at sunrise'
     style: right
   - src: '2022-pikes-peak-aframe/06.jpg'
-    alt: ''
+    alt: 'volunteers balancing their heavy loads before starting'
     style: right
   - src: '2022-pikes-peak-aframe/07.jpg'
     alt: 'a portrait of hiker in early morning light on top of a mountain'
     style: full
   - src: '2022-pikes-peak-aframe/09.jpg'
-    alt: ''
+    alt: 'pausing with a heavy load of roof tiles on the trail'
   - src: '2022-pikes-peak-aframe/08.jpg'
-    alt: ''
+    alt: 'melting ice on the rocky trail'
     style: right
   - src: '2022-pikes-peak-aframe/10.jpg'
     alt: ''
   - src: '2022-pikes-peak-aframe/11.jpg'
     alt: 'a hiker walking past the Barr Trail dedication sign to Fred Barr'
   - src: '2022-pikes-peak-aframe/12.jpg'
-    alt: ''
+    alt: 'volunteers carrying materials on Barr Trail'
     style: half
   - src: '2022-pikes-peak-aframe/13.jpg'
-    alt: ''
+    alt: 'a distant view of hikers on Barr Trail with tall rocks surrounding'
     style: half
   - src: '2022-pikes-peak-aframe/14.jpg'
-    alt: ''
+    alt: 'a smiling volunteer carrying a new support pole on Barr Trail'
     style: half
   - src: '2022-pikes-peak-aframe/15.jpg'
-    alt: ''
+    alt: 'footsteps in motion on Barr Trail'
     style: half
   - src: '2022-pikes-peak-aframe/16.jpg'
     alt: 'a sign on Barr Trail marking 2 miles to the summit'
@@ -65,34 +65,34 @@ images:
     alt: 'sign on the A-Frame MAINTAINED FOR US FOREST SERVICE BY PIKES PEAK GROUP COLORADO MOUNTAIN CLUB'
     style: full
   - src: '2022-pikes-peak-aframe/17.jpg'
-    alt: ''
+    alt: 'a side view of the old A-Frame shelter support poles'
     style: half
   - src: '2022-pikes-peak-aframe/19.jpg'
-    alt: ''
+    alt: 'a close view of the rotting old A-Frame shelter support poles'
     style: half
   - src: '2022-pikes-peak-aframe/20.jpg'
-    alt: ''
+    alt: 'working inside the A-Frame shelter'
     style: half
   - src: '2022-pikes-peak-aframe/21.jpg'
-    alt: ''
+    alt: 'a foot on a ladder inside the A-Frame shelter'
     style: half
   - src: '2022-pikes-peak-aframe/22.jpg'
     alt: 'a smiling person peeking over the roof of the Pikes Peak A-Frame'
     style: full
   - src: '2022-pikes-peak-aframe/23.jpg'
-    alt: ''
+    alt: 'discussing the construction job, next to the A-Frame'
     style: half
   - src: '2022-pikes-peak-aframe/24.jpg'
-    alt: ''
+    alt: 'throwing off an old section of roof'
     style: half
   - src: '2022-pikes-peak-aframe/25.jpg'
     alt: 'people working on a construction scene at the Pikes Peak A-Frame'
     style: center
   - src: '2022-pikes-peak-aframe/26.jpg'
-    alt: ''
+    alt: 'handing off a tool from someone on the ground to someone standing on the edge of the roof'
     style: left
   - src: '2022-pikes-peak-aframe/27.jpg'
-    alt: ''
+    alt: 'cutting through an old support for the roof with a saw'
     style: left
   - src: '2022-pikes-peak-aframe/28.jpg'
     alt: 'a photographic guide to the construction effort showing areas that need work'
@@ -107,16 +107,16 @@ images:
     alt: 'finishing cutting through a support for the a-frame structure'
     style: half
   - src: '2022-pikes-peak-aframe/32.jpg'
-    alt: ''
+    alt: 'carrying sections of roof'
     style: half
   - src: '2022-pikes-peak-aframe/33.jpg'
-    alt: ''
+    alt: 'hammering in the edge of the roof'
     style: half
   - src: '2022-pikes-peak-aframe/34.jpg'
-    alt: ''
+    alt: 'cutting a section of roof'
     style: left
   - src: '2022-pikes-peak-aframe/35.jpg'
-    alt: ''
+    alt: 'a final view of the volunteers at the A-Frame shelter'
     style: left
 
 ---
