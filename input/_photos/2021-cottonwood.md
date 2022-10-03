@@ -10,28 +10,28 @@ images:
     alt: 'a portrait of Sapphie the dog standing on top of a mountain'
     style: full
   - src: '2021-cottonwood/00.jpg'
-    alt: ''
+    alt: 'Jean and Sapphie the dog looking at the sunrise from a mountaintop'
     style: left
   - src: '2021-cottonwood/01.jpg'
-    alt: ''
+    alt: 'sign: PROTECT FRAGILE ALPINE TUNDRA. STAY ON TRAIL DON’T CUT SWIITCHBACKS'
   - src: '2021-cottonwood/02.jpg'
-    alt: ''
+    alt: 'Jean feeds Sapphie the dog'
     style: half
   - src: '2021-cottonwood/03.jpg'
-    alt: ''
+    alt: 'portrait of Sapphie the dog on the trail with her backpack'
     style: half
   - src: '2021-cottonwood/04.jpg'
-    alt: ''
+    alt: 'wide scene of Sapphie running on the trail'
     style: full
   - src: '2021-cottonwood/06.jpg'
-    alt: ''
+    alt: 'mountain peaks with a marsh below'
     style: half
   - src: '2021-cottonwood/07.jpg'
-    alt: ''
+    alt: 'trail marker for Continental Divide Trail and Colorado Trail'
     style: half
   - src: '2021-cottonwood/09.jpg'
-    alt: ''
+    alt: 'a wider shot of a mountain peak with snow and clouds'
     style: right
   - src: '2021-cottonwood/05.jpg'
-    alt: ''
+    alt: 'a mountain peak with snow'
 ---
