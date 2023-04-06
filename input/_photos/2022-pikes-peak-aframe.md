@@ -2,6 +2,7 @@
 title: 'Pikes Peak A-Frame repair project'
 description: 'A photo essay about the repair of the A-Frame shelter on Barr Trail, Pikes Peak.'
 date: '2022-08-27T14:00:00'
+updated: '2023-04-06T13:59:57'
 tags:
   - story
   - portfolio
@@ -38,14 +39,15 @@ images:
     alt: 'a portrait of hiker in early morning light on top of a mountain'
     style: full
   - src: '2022-pikes-peak-aframe/09.jpg'
-    alt: 'pausing with a heavy load of roof tiles on the trail'
+    alt: 'a volunteer pausing with a heavy load of roof tiles on the trail'
   - src: '2022-pikes-peak-aframe/08.jpg'
-    alt: 'melting ice on the rocky trail'
+    alt: 'three volunteers carrying supplies down the mountain, with large rocks below and a blue sky above'
     style: right
   - src: '2022-pikes-peak-aframe/10.jpg'
-    alt: ''
+    alt: 'melting ice on the rocky trail'
   - src: '2022-pikes-peak-aframe/11.jpg'
     alt: 'a hiker walking past the Barr Trail dedication sign to Fred Barr'
+    style: right
   - src: '2022-pikes-peak-aframe/12.jpg'
     alt: 'volunteers carrying materials on Barr Trail'
     style: half
