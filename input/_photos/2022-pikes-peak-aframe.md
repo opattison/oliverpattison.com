@@ -6,6 +6,8 @@ updated: '2023-04-06T16:12:00'
 tags:
   - story
   - portfolio
+story:
+  src: '2022-pikes-peak-aframe/29.jpg'
 banner:
   src: '2022-pikes-peak-aframe/29.jpg'
   alt: 'people working on a construction scene at the Pikes Peak A-Frame'
