@@ -1,20 +1,24 @@
 images:
+  - title: '2022-pikes-peak-aframe'
+    index: 8
+  - title: '2022-pikes-peak-aframe'
+    index: 6
+  - title: '2022-pikes-peak-aframe'
+    index: 31
+  - title: '2022-pikes-peak-aframe'
+    index: 35
   - title: '2020-jean'
     index: 0
   - title: '2021-family'
     index: 0
-  - title: '2022-pikes-peak-aframe'
-    index: 8
-  - title: '2021-ian'
-    index: 0
-  - title: '2021-cottonwood'
-    index: 0
-  - title: '2022-pikes-peak-aframe'
-    index: 23
-  - title: '2022-pikes-peak-aframe'
-    index: 26
   - title: '2021-rhys-and-sapphie'
     index: 0
   - title: '2021-rhys-and-sapphie'
     index: 1
   - title: '2021-lake-city'
+    index: 0
+  - title: '2021-cottonwood'
+    index: 0
+  - title: '2021-cottonwood'
+    index: 8
+    
