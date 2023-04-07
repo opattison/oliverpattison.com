@@ -6,8 +6,8 @@ layout: base.njk
   <main>
     <ul class="grid--stories">
     {% for post in collections.story | reverse %}
-      {% set src = post.data.images[0].src %}
-      {% set alt = post.data.images[0].alt %}
+      {% set src = post.data.story.src %}
+      {% set alt = post.data.description %}
       <li class="grid-item">
         <a href="{{ post.url }}">
           <figure>
