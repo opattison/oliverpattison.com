@@ -2,6 +2,7 @@
 title: 'Exploring Lake City'
 description: 'A beautiful place that is among the most remote and least populated locations in the United States.'
 date: '2021-04-23T12:00:00'
+updated: '2023-04-07T15:55:51'
 tags:
   - portfolio
   - story
