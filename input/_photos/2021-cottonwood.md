@@ -6,9 +6,16 @@ updated: '2023-04-07T14:05:46'
 tags:
   - portfolio
   - story
+story:
+  src: '2021-cottonwood-2023-04/11.jpg'
 banner:
   src: '2021-cottonwood-2023-04/11.jpg'
-  alt: 'a portrait of Sapphie the dog standing on top of a mountain smiling' 
+  alt: 'a portrait of Sapphie the dog standing on top of a mountain smiling'
+introduction: '
+  ## Hiking Cottonwood Pass in October
+  
+  It’s the end of the season. Before long, one of the highest driveable mountain passes in Colorado would be closed. We soaked up the last of an unseasonably pleasant day at 12,000 feet above sea level.
+  '
 images:
   - src: '2021-cottonwood-2023-04/00.jpg'
     alt: 'Jean and Sapphie the dog looking at the sunrise from a mountaintop'
