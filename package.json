@@ -1,7 +1,7 @@
 {
-  "name": "Oliver Pattison",
+  "name": "oliverpattison.com",
   "version": "1.0.0",
-  "description": "documentary photographer",
+  "description": "website for a photographer",
   "main": ".eleventy.js",
   "scripts": {
     "build": "eleventy",
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/opattison/oliverpattison.com.git#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy": "^2.0.0",
     "@imgix/js-core": "^3.6.0",
     "clean-css": "^5.3.1",
     "js-yaml": "^4.1.0",
