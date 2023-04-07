@@ -2,14 +2,14 @@
 title: 'Cottonwood Pass hiking'
 description: 'Photos from a hike on Cottonwood Pass on the continental divide in Western Colorado.'
 date: '2021-10-03T12:00:00'
-updated: '2023-04-07T14:05:46'
+updated: '2023-04-07T16:03:00'
 tags:
   - portfolio
   - story
 story:
   src: '2021-cottonwood-2023-04/11.jpg'
 banner:
-  src: '2021-cottonwood-2023-04/11.jpg'
+  src: '2021-cottonwood-2023-04/11-wide.jpg'
   alt: 'a portrait of Sapphie the dog standing on top of a mountain smiling'
 introduction: '
   ## Hiking Cottonwood Pass in October
