@@ -123,6 +123,7 @@ hr::after {
 }
 
 .grid--mini {
+  clear: both;
   gap: .5em;
   margin: 2em -2em 0 0;
 }
