@@ -105,11 +105,16 @@ hr::after {
 .grid,
 .grid--mini,
 .grid--stories,
-.grid--photo {
+.grid--photo,
+.grid--banner {
   display: flex;
   flex-flow: row wrap;
   gap: 1em;
   list-style: none;
+}
+
+.grid--banner {
+  margin: 0 -2em;
 }
 
 .grid--photo {
@@ -173,6 +178,10 @@ hr::after {
   
   .page {
     padding: 2em 3em 3em;
+  }
+  
+  .grid--banner {
+    margin: 0 -3em;
   }
   
   .photo--profile {
