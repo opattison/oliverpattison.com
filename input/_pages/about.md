@@ -15,7 +15,7 @@ callout:
 
 ## More About Me
 
-I live in Colorado Springs with my partner Jean and our dog Sapphie. Living here balances my love for living near the mountains with access to a city that has so many opportunities to connect with other people, go hiking and running, volunteer, and build community.
+I live in Colorado Springs with my partner Jean and our dog Sapphie. Living here balances my love for being near the mountains alongside access to a city that has so many opportunities to connect with other people, go hiking and running, volunteer, and build community.
 
 ## My Approach
 
