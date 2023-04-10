@@ -3,20 +3,22 @@ layout: base.njk
 ---
 
 <div class="page page--about">
-  <main>
-    {% photo_profile portrait.src, portrait.alt %}
-    <section class="introduction--about">
-    {% if introduction %}{% markdown introduction %}{% endif %}
-    {% if callout %}{% markdown callout %}{% endif %}
-    </section>
-    <ul class="grid--mini">
-     {% for image in about.images %}
-      <li class="grid-item--mini">{% grid_image image.src, image.alt %}</li>
-    {% endfor %}
-    </ul>
-    <section class="content--about">
-    {{ content | safe }}
-    </section>
-  </main>
-  {% include 'nav-list--home.njk' %}
+  <div class="boundary boundary--content">
+    <main>
+      <section class="entry--about">
+      {% if entry %}{% markdown entry %}{% endif %}
+      {% if callout %}{% markdown callout %}{% endif %}
+      </section>
+      {% photo_profile portrait.src, portrait.alt %}
+      <ul class="grid--mini">
+       {% for image in about.images %}
+        <li class="grid-item--mini">{% grid_image image.src, image.alt %}</li>
+      {% endfor %}
+      </ul>
+      <section class="content--about">
+      {{ content | safe }}
+      </section>
+    </main>
+    {% include 'nav-list--home.njk' %}
+  </div>
 </div>
