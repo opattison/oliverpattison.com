@@ -19,4 +19,4 @@ I live in Colorado Springs with my partner Jean and our dog Sapphie. Living here
 
 ## My Approach
 
-I want to help you create honest and emotional photography, whether through a portrait or framing a small moment in your life or work. Types of clients include artists and craftspeople looking to demonstrate their work and process of creating, local organizations who want to showcase their mission through photography, and individuals or families wanting to document their lives.
+I want to help you tell a story through honest and emotional photography, whether through a portrait or framing a small moment in your life or work. Types of clients include artists and craftspeople looking to demonstrate their work and process of creating, local organizations who want to showcase their mission through photography, and individuals or families wanting to document their lives.
