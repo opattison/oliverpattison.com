@@ -6,15 +6,6 @@ body {
   margin: 0;
 }
 
-header {
-  padding: 1em 2em;
-}
-
-footer {
-  flex-grow: 2;
-  padding: 2em;
-}
-
 h1,
 h2,
 h3,
@@ -46,8 +37,21 @@ hr::after {
   content: '– – –'
 }
 
+header {
+  padding: 1em 1em 1em 2em;
+}
+
+footer {
+  flex-grow: 2;
+  padding: 2em 1em 3em 2em;
+}
+
+.boundary {
+  margin: 0 0 0 auto;
+}
+
 .page {
-  padding: 2em 2em 3em;
+  padding: 1em 1em 2em 2em;
 }
 
 .home {
@@ -77,11 +81,11 @@ hr::after {
 }
 
 .nav--bottom {
-  margin-top: 2em;
+  margin: 3em 0 0;
 }
 
 .nav-list--home {
-  margin-top: 4em;
+  margin: 6em 0 0;
 }
 
 .nav-list-item {
@@ -97,9 +101,34 @@ hr::after {
   content: none;
 }
 
-.introduction,
-.introduction--about {
-  margin-top: 1em;
+.introduction {
+  margin: 0;
+  padding: 1em 1em 2em 2em;
+}
+
+.entry {
+  margin: -2em -1em 0 -1em;
+  padding: 2em 2em 2em 1em;
+}
+
+.entry :first-child {
+  margin: 0;
+}
+
+.entry--about,
+.content--about {
+  padding: 1em 1em 2em 2em;
+  margin: 0 -1em .5em -2em;
+}
+
+.content--photo {
+  margin-top: 2em;
+}
+
+.photo--profile {
+  margin: .5em -1em .5em 0;
+  max-width: none;
+  width: calc(100% + 1em);
 }
 
 .grid,
@@ -109,25 +138,22 @@ hr::after {
 .grid--banner {
   display: flex;
   flex-flow: row wrap;
-  gap: 1em;
+  gap: .5em;
   list-style: none;
 }
 
-.grid--banner {
-  margin: 0 -2em;
+.grid--mini {
+  margin: .5em -1em .5em 0;
+}
+
+
+.grid--stories {
+  gap: 1em;
 }
 
 .grid--photo {
-  gap: .5em;
   margin: 1em 0 0;
 }
-
-.grid--mini {
-  clear: both;
-  gap: .5em;
-  margin: 2em -2em 0 0;
-}
-
 .grid-item {
   flex: 1 0 100%;
 }
@@ -142,12 +168,6 @@ hr::after {
 
 .grid-image {
   width: 100%;
-}
-
-.photo--profile {
-  margin: 2em -2em 0 0;
-  max-width: none;
-  width: calc(100% + 2em);
 }
 
 .contact {
@@ -170,30 +190,32 @@ hr::after {
 
 @media screen and (min-width: 35em) {
   header {
-    padding: 2em 3em;
+    padding: 2em 1em 2em 2em;
   }
   
   footer {
-    padding: 3em;
+    padding: 2em 1em 2em 2em;
   }
   
   .page {
-    padding: 2em 3em 3em;
+    padding: 2em 1em 3em 2em;
   }
   
-  .grid--banner {
-    margin: 0 -3em;
+  .entry {
+    margin: -9em 0 0;
+    padding: 2em 2em 3em;
+    min-height: 12em;
   }
   
+  .entry--about {
+    margin: 0 0 0 -2em;
+    padding: 2em 2em 10em;
+  }
+    
   .photo--profile {
-    float: right;
-    margin: -1em -3em 2em 2em;
+    margin: -8em -1em .5em calc(33.33333333% + .5em);
     padding: 0;
-    width: calc(50% + 1em);
-  }
-  
-  .grid--mini {
-    margin: 2em -3em 0 0;
+    width: calc(66.66666667% + .5em);
   }
     
   .grid-item {
@@ -243,33 +265,62 @@ hr::after {
 }
 
 @media screen and (min-width: 52em) {
-  .grid--photo,
-  .content--photo,
-  .introduction--photo {
-    margin: 2em 4em;
+  .boundary {
+    max-width: 40em;
   }
   
-  .introduction {
-    margin: 1em 0 0 calc(50% + .5em);
+  .entry--about {
+    margin: 0 1em 0 -2em;
+    padding: 2em 4em 10em 2em;
   }
   
-  .introduction--about {
-    margin-right: 25%;
-  }
-   
   .content--about {
-    margin: 4em 0 0 25%;
+    margin: .5em -1em 0 0;
+    padding: 2em 2em 3em calc(16.66666667% + .1em);
   }
   
   .photo--profile {
-    max-width: 25em;
+    margin: -8em 0 .5em calc(33.33333333% + .2em);
+    width: calc(66.66666667% - .2em);
   }
   
   .grid--mini {
+    margin: .5em 0 0 0;
     flex-flow: row nowrap;
   }
   
   .grid-item--mini {
     flex: 1 1 1em;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  header {
+    padding: 3em 8vw 2em 16vw;
+  }
+  
+  footer {
+    padding: 3em 8vw 3em 16vw;
+  }
+  
+  .page {
+    padding: 2em 8vw 3em 16vw;
+  }
+  
+  .introduction {
+    padding-right: 8vw;
+  }
+  
+  .entry {
+    margin-top: -15em;
+    min-height: 16em;
+  }
+  
+  .entry--about {
+    margin-right: 8vw;
+  }
+  
+  .content--about {
+    margin: .5em 0 0 0;
   }
 }

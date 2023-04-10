@@ -61,28 +61,32 @@ portrait:
 		</style>
 	</head>
 	<body>
-		<header class="heading">
-			<nav class="nav">
-				{% include 'nav-list.njk' %}
-			</nav>
-			<a class="home" href="/"><h1 class="title">{{ name }}</h1></a>
-			<h2 class="subtitle">{{ subtitle }}</h2>
+		<header>
+			<div class="boundary">
+				<nav class="nav">
+					{% include 'nav-list.njk' %}
+				</nav>
+				<a class="home" href="/"><h1 class="title">{{ name }}</h1></a>
+				<h2 class="subtitle">{{ subtitle }}</h2>
+			</div>
 		</header>
 		{{ content | safe }}
 		<footer>
-			<div class="contact">
-				<ul class="contact-list">
-					<li class="contact-item">email: <a href="{{ email_src }}">{{ email }}</a></li>
-					<li class="contact-item">call or text: <a href="{{ phone_src }}">{{ phone }}</a></li>
-				</ul>
+			<div class="boundary">
+				<div class="contact">
+					<ul class="contact-list">
+						<li class="contact-item">email: <a href="{{ email_src }}">{{ email }}</a></li>
+						<li class="contact-item">call or text: <a href="{{ phone_src }}">{{ phone }}</a></li>
+					</ul>
+				</div>
+				<div class="location">
+					<p>{{ location }}</p>
+					<p>Print portfolio available on request.</p>
+				</div>
+				<nav class="nav--bottom">
+					{% include 'nav-list.njk' %}
+				</nav>
 			</div>
-			<div class="location">
-				<p>{{ location }}</p>
-				<p>Print portfolio available on request.</p>
-			</div>
-			<nav class="nav--bottom">
-				{% include 'nav-list.njk' %}
-			</nav>
 		</footer>
 	</body>
 </html>

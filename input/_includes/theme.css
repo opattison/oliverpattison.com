@@ -12,9 +12,9 @@
   --light-b0: 98%;
   --light-b1: 95%;
   --light-b2: 92%;
-  --light-b7: 30%;
-  --light-b8: 20%;
-  --light-b9: 10%;
+  --light-b7: 16%;
+  --light-b8: 8%;
+  --light-b9: 4%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -61,6 +61,16 @@ footer a:visited {
 footer a:focus,
 footer a:hover {
   color: hsl(var(--color-accent) var(--light-f7));
+}
+
+.introduction {
+  background-color: hsl(var(--color-primary) var(--light-b2));
+}
+
+.entry,
+.entry--about,
+.content--about {
+  background-color: hsl(var(--color-primary) var(--light-b0));
 }
 
 .subtitle {
