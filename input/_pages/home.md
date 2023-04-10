@@ -5,7 +5,7 @@ permalink: /
 eleventyExcludeFromCollections: true
 ---
 
-I am a photographer who shoots in a documentary style for individuals, families, and businesses. 
+Hello. I’m Oliver, a photographer based in Colorado Springs.
 
 [Read more about me and my work](/about/).
 
