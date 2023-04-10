@@ -3,7 +3,7 @@ title: 'About – Oliver Pattison'
 layout: about.njk
 permalink: /about/
 eleventyExcludeFromCollections: true
-introduction: 
+entry: 
   'I take pictures in a humanistic style for people who want a realistic document of their life or work.
   
   
@@ -15,8 +15,8 @@ callout:
 
 ## More About Me
 
-I live in Colorado Springs with my partner Jean and our dog Sapphie. Living here balances my love for living near the mountains with access to a city that has so many opportunities to connect with other people, go hiking and running, volunteer, and build community.
+I live in Colorado Springs with my partner Jean and our dog Sapphie. Living here balances my love for being near the mountains alongside access to a city that has so many opportunities to connect with other people, go hiking and running, volunteer, and build community.
 
 ## My Approach
 
-I want to help you create honest and emotional photography, whether through a portrait or framing a small moment in your life or work. Types of clients include artists and craftspeople looking to demonstrate their work and process of creating, local organizations who want to showcase their mission through photography, and individuals or families wanting to document their lives.
+I want to help you tell a story through honest and emotional photography, whether through a portrait or framing a small moment in your life or work. Types of clients include artists and craftspeople looking to demonstrate their work and process of creating, local organizations who want to showcase their mission through photography, and individuals or families wanting to document their lives.

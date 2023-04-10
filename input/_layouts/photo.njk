@@ -3,35 +3,37 @@ layout: base.njk
 permalink: /stories/{{ page.fileSlug }}/
 ---
 
+{% if banner %}
+  <section class="grid--banner">
+    {% set src = banner.src %}
+    {% set alt = banner.alt %}
+    <figure class="grid-item--photo grid-item--photo--full">
+    {% photo src, alt %}
+    </figure>
+  </section>
+{% endif %}
 <div class="page page--photo">
-  <main>
-  {% if banner %}
-    <section class="grid--banner">
-      {% set src = banner.src %}
-      {% set alt = banner.alt %}
-      <figure class="grid-item--photo grid-item--photo--full">
-      {% photo src, alt %}
-      </figure>
-    </section>
-  {% endif %}
-  {% if introduction %}
-    <section class="introduction--photo">{% markdown introduction %}</section>
-  {% endif %}
-    <section class="grid--photo">
-    {% for image in images %}
-      {% set src = image.src %}
-      {% set alt = image.alt %}
-      {% set style = image.style %}
+  <div class="boundary">
+    <main>
+    {% if entry %}
+      <section class="entry">{% markdown entry %}</section>
+    {% endif %}
+      <section class="grid--photo">
+      {% for image in images %}
+        {% set src = image.src %}
+        {% set alt = image.alt %}
+        {% set style = image.style %}
+        
+        <figure class="grid-item--photo grid-item--photo{% if style %}--{{ style }}{% endif %}">
+        {% photo src, alt %}
+        </figure>
+      {% endfor %}
+      </section>
       
-      <figure class="grid-item--photo grid-item--photo{% if style %}--{{ style }}{% endif %}">
-      {% photo src, alt %}
-      </figure>
-    {% endfor %}
-    </section>
-    
-    <section class="content--photo">
-    {{ content | safe }}
-    </section>
-  </main>
-  {% include 'nav-list--home.njk' %}
+      <section class="content--photo">
+      {{ content | safe }}
+      </section>
+    </main>
+    {% include 'nav-list--home.njk' %}
+  </div>
 </div>
