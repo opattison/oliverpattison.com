@@ -9,12 +9,12 @@ tags:
 story:
   src: '2021-cottonwood-2023-04/11.jpg'
 banner:
-  src: '2021-cottonwood-2023-04/11-wide.jpg'
+  src: '2021-cottonwood-2023-04/11-wider.jpg'
   alt: 'a portrait of Sapphie the dog standing on top of a mountain smiling'
-introduction: '
+entry: '
   ## Hiking Cottonwood Pass in October
   
-  It’s the end of the season. Before long, one of the highest driveable mountain passes in Colorado would be closed. We soaked up the last of an unseasonably pleasant day at 12,000 feet above sea level.
+  It was the end of the season. Before long, one of the highest driveable mountain passes in Colorado would be closed. We soaked up the last of an unseasonably pleasant day at 12,000 feet above sea level.
   '
 images:
   - src: '2021-cottonwood-2023-04/00.jpg'
@@ -30,7 +30,7 @@ images:
     style: half
   - src: '2021-cottonwood-2023-04/05.jpg'
     alt: 'Jean and Sapphie walking on the ridgeline with clouds below'
-    style: center
+    style: left
   - src: '2021-cottonwood-2023-04/04.jpg'
     alt: 'Jean feeds Sapphie the dog'
     style: half
@@ -45,15 +45,17 @@ images:
     style: half
   - src: '2021-cottonwood-2023-04/10.jpg'
     alt: 'trail marker for Continental Divide Trail and Colorado Trail'
-    style: half
+    style: center
   - src: '2021-cottonwood-2023-04/12.jpg'
     alt: 'Sapphie the dog walking along the ridgeline with mountains behind and rocks in the near foreground'
     style: full
   - src: '2021-cottonwood-2023-04/11.jpg'
     alt: 'a portrait of Sapphie the dog standing on top of a mountain smiling'
+    style: left
   - src: '2021-cottonwood-2023-04/13.jpg'
     alt: 'a wider shot of a mountain peak with snow and clouds'
-    style: right
+    style: full
   - src: '2021-cottonwood-2023-04/08.jpg'
     alt: 'a mountain peak with snow'
+    style: right
 ---

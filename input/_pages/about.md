@@ -3,7 +3,7 @@ title: 'About – Oliver Pattison'
 layout: about.njk
 permalink: /about/
 eleventyExcludeFromCollections: true
-introduction: 
+entry: 
   'I take pictures in a humanistic style for people who want a realistic document of their life or work.
   
   
