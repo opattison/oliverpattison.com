@@ -103,7 +103,7 @@ footer {
 
 .introduction {
   margin: 0;
-  padding: 2em 1em 2em 2em;
+  padding: 1em 1em 2em 2em;
 }
 
 .entry {
@@ -115,6 +115,22 @@ footer {
   margin: 0;
 }
 
+.entry--about,
+.content--about {
+  padding: 1em 1em 2em 2em;
+  margin: 0 -1em .5em -2em;
+}
+
+.content--photo {
+  margin-top: 2em;
+}
+
+.photo--profile {
+  margin: .5em -1em .5em 0;
+  max-width: none;
+  width: calc(100% + 1em);
+}
+
 .grid,
 .grid--mini,
 .grid--stories,
@@ -122,20 +138,22 @@ footer {
 .grid--banner {
   display: flex;
   flex-flow: row wrap;
-  gap: 1em;
+  gap: .5em;
   list-style: none;
 }
 
-.grid--photo {
-  gap: .5em;
-  margin: 1em 0 0;
-}
-
 .grid--mini {
-  gap: .5em;
   margin: .5em -1em .5em 0;
 }
 
+
+.grid--stories {
+  gap: 1em;
+}
+
+.grid--photo {
+  margin: 1em 0 0;
+}
 .grid-item {
   flex: 1 0 100%;
 }
@@ -150,18 +168,6 @@ footer {
 
 .grid-image {
   width: 100%;
-}
-
-.entry--about,
-.content--about {
-  padding: 1em 1em 2em 2em;
-  margin: 0 -1em .5em -2em;
-}
-
-.photo--profile {
-  margin: .5em -1em .5em 0;
-  max-width: none;
-  width: calc(100% + 1em);
 }
 
 .contact {
@@ -197,17 +203,17 @@ footer {
   
   .entry {
     margin: -9em 0 0;
-    padding: 3em;
+    padding: 2em 2em 3em;
     min-height: 12em;
   }
   
   .entry--about {
     margin: 0 0 0 -2em;
-    padding: 2em 2em 8em;
+    padding: 2em 2em 10em;
   }
     
   .photo--profile {
-    margin: -6em -1em .5em calc(33.33333333% + .5em);
+    margin: -8em -1em .5em calc(33.33333333% + .5em);
     padding: 0;
     width: calc(66.66666667% + .5em);
   }
@@ -290,11 +296,11 @@ footer {
 
 @media screen and (min-width: 62em) {
   header {
-    padding: 2em 8vw 2em 16vw;
+    padding: 3em 8vw 2em 16vw;
   }
   
   footer {
-    padding: 2em 8vw 2em 16vw;
+    padding: 3em 8vw 3em 16vw;
   }
   
   .page {
