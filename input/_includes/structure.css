@@ -150,7 +150,7 @@ footer {
 .flex--photo,
 .flex--banner {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   gap: .5em;
   list-style: none;
 }
@@ -231,8 +231,17 @@ footer {
     width: calc(66.66666667% + .5em);
   }
   
+  .flex,
+  .flex--mini,
+  .flex--stories,
+  .flex--photo,
+  .flex--banner {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
   .flex--stories {
-    gap: .5em;
+    gap: 1em .5em;
   }
   
   .flex-item {
