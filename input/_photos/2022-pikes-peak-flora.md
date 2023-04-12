@@ -4,7 +4,7 @@ description: ''
 date: '2022-08-27T06:30:00'
 updated: '2023-04-08T12:15:59'
 tags:
-  - portfolio
+  - personal
 banner:
   src: '2022-pikes-peak-flora/00-wide.jpg'
   alt: 'yellow flowers on the side of Barr Trail'

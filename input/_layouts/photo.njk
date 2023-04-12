@@ -4,10 +4,10 @@ permalink: /stories/{{ page.fileSlug }}/
 ---
 
 {% if banner %}
-  <section class="grid--banner">
+  <section class="flex--banner">
     {% set src = banner.src %}
     {% set alt = banner.alt %}
-    <figure class="grid-item--photo grid-item--photo--full">
+    <figure class="flex-item--photo flex-item--photo--full">
     {% photo src, alt %}
     </figure>
   </section>
@@ -18,13 +18,13 @@ permalink: /stories/{{ page.fileSlug }}/
     {% if entry %}
       <section class="entry">{% markdown entry %}</section>
     {% endif %}
-      <section class="grid--photo">
+      <section class="flex--photo">
       {% for image in images %}
         {% set src = image.src %}
         {% set alt = image.alt %}
         {% set style = image.style %}
         
-        <figure class="grid-item--photo{% if style %} grid-item--photo--{{ style }}{% endif %}">
+        <figure class="flex-item{% if style %} flex-item--{{ style }}{% endif %}">
         {% photo src, alt %}
         </figure>
       {% endfor %}

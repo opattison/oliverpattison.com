@@ -36,7 +36,7 @@ module.exports = function(eleventyConfig) {
   });
   const basePath = "/images/";
     
-  eleventyConfig.addShortcode("grid_image", (path, alt) => { 
+  eleventyConfig.addShortcode("flex_image", (path, alt) => { 
     const defaultWidth = 501;
     const defaultHeight = 334;
     const srcDev = basePath + path;
@@ -56,10 +56,10 @@ module.exports = function(eleventyConfig) {
     const sizes = "(min-width: 35em) calc(50vw - 3em), (min-width: 28em) calc(50vw - 2em), calc(100vw - 4em)";
     
     if (process.env.NODE_ENV === 'development') {
-      return `<img src="${srcDev}" alt="${alt}" class="grid-image">`;
+      return `<img src="${srcDev}" alt="${alt}" class="flex-image">`;
     }
     else {
-      return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="grid-image">`;
+      return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="flex-image">`;
     };
   });
   
@@ -110,10 +110,10 @@ module.exports = function(eleventyConfig) {
     const sizes = "calc(100vw - 2em)";
         
     if (process.env.NODE_ENV === 'development') {
-      return `<img src="${srcDev}" alt="${alt}" class="grid-image">`;
+      return `<img src="${srcDev}" alt="${alt}" class="flex-image">`;
     }
     else {
-      return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="grid-image">`;
+      return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="flex-image">`;
     };
   });
   

@@ -3,21 +3,23 @@ layout: base.njk
 ---
 
 <main>
-  <section class="page page--home">
-    <div class="boundary">
-      <ul class="grid">
-      {% for item in portfolio.images %}
+  <section class="page page--index">
+    <div class="boundary--index">
+      <ul class="flex">
+      {% for item in portfolio.posts %}
         {% set title = item.title %}
-        {% if item.index %}
-          {% set index = item.index %}
-        {% else %}
-          {% set index = 0 %}
-        {% endif %}
-        {% for post in collections.portfolio %}
-          {% if post.fileSlug == title %}
-            {% set src = post.data.images[index].src %}        
-            {% set alt = post.data.images[index].alt %}
-            <li class="grid-item"><a href="{{ post.url }}">{% grid_image src, alt %}</a></li>
+        {% set images = item.images %}
+        
+        {% for post in collections.all %}
+          {% if post.fileSlug == title %}  
+            {% for image in images %}
+              {% set src = image.src %}
+              {% set alt = image.alt %}
+              {% set style = image.style %}
+              {% set align = image.align %}
+            
+              <li class="flex-item{% if style %} flex-item--{{ style }}{% endif %}"{% if align %} style="align-self: {{ align }}"{% endif %}><a href="{{ post.url }}">{% flex_image src, alt %}</a></li>
+            {% endfor %}
           {% endif %}
         {% endfor %}
       {% endfor %}
@@ -25,7 +27,7 @@ layout: base.njk
     </div>
   </section>
   <section class="introduction">
-    <div class="boundary">
+    <div class="boundary--index">
     {{ content | safe }}
     </div>
   </section>
