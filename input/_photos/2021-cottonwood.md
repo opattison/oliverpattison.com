@@ -4,7 +4,7 @@ description: 'Photos from a hike on Cottonwood Pass on the continental divide in
 date: '2021-10-03T12:00:00'
 updated: '2023-04-07T16:03:00'
 tags:
-  - portfolio
+  - personal
   - story
 story:
   src: '2021-cottonwood-2023-04/11.jpg'

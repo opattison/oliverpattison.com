@@ -10,9 +10,9 @@ layout: base.njk
       {% if callout %}{% markdown callout %}{% endif %}
       </section>
       {% photo_profile portrait.src, portrait.alt %}
-      <ul class="grid--mini">
+      <ul class="flex--mini">
        {% for image in about.images %}
-        <li class="grid-item--mini">{% grid_image image.src, image.alt %}</li>
+        <li class="flex-item--mini">{% flex_image image.src, image.alt %}</li>
       {% endfor %}
       </ul>
       <section class="content--about">
