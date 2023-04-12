@@ -48,3 +48,23 @@ posts:
     - src: '2021-family/2021-05-29-dogs-waiting.jpg'
       alt: 'dogs waiting to be fed at the table'
       style: quarter
+  - title: '2020-jean'
+    images:
+    - src: '2020-jean/2020-07-10-portrait.jpg'
+      alt: 'a portrait of Jean at sunset'
+      style: quarter
+  - title: '2021-cottonwood'
+    images:
+    - src: '2021-cottonwood-2023-04/11.jpg'
+      alt: 'a portrait of Sapphie the dog standing on top of a mountain smiling'
+      style: right
+    - src: '2021-cottonwood-2023-04/09.jpg'
+      alt: 'mountain peaks with a marsh below'
+      style: third
+    - src: '2021-cottonwood-2023-04/10.jpg'
+      alt: 'trail marker for Continental Divide Trail and Colorado Trail'
+      style: third
+      align: center
+    - src: '2021-cottonwood-2023-04/08.jpg'
+      alt: 'a mountain peak with snow'
+      style: third
