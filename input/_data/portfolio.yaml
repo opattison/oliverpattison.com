@@ -1,24 +1,50 @@
-images:
+posts:
   - title: '2022-pikes-peak-aframe'
-    index: 8
+    images:
+    - src: '2022-pikes-peak-aframe/09.jpg'
+      alt: 'a portrait of hiker in early morning light on top of a mountain'
+      style: left
+    - src: '2022-pikes-peak-aframe/06.jpg'
+      alt: 'silhouettes of volunteers on the summit at sunrise'
+      style: quarter
+      align: flex-start
+    - src: '2022-pikes-peak-aframe/05.jpg'
+      alt: 'a view of the summit house on the top of Pikes Peak'
+      style: quarter
+  - title: '2022-pikes-peak-flora'
+    images:
+    - src: '2022-pikes-peak-flora/04.jpg'
+      alt: 'a distant view down the side of Pikes Peak and surrounding mountains from higher up on Barr'
+      style: quarter
   - title: '2022-pikes-peak-aframe'
-    index: 6
-  - title: '2022-pikes-peak-aframe'
-    index: 31
-  - title: '2022-pikes-peak-aframe'
-    index: 35
-  - title: '2020-jean'
-    index: 0
-  - title: '2021-family'
-    index: 0
-  - title: '2021-rhys-and-sapphie'
-    index: 0
-  - title: '2021-rhys-and-sapphie'
-    index: 1
+    images:
+    - src: '2022-pikes-peak-aframe/15.jpg'
+      alt: 'volunteers carrying materials on Barr Trail'
+      style: quarter
+    - src: '2022-pikes-peak-aframe/17.jpg'
+      alt: 'a smiling volunteer carrying a new support pole on Barr Trail'
+      style: quarter
+      align: flex-start
+    - src: '2022-pikes-peak-aframe/36.jpg'
+      alt: 'finishing cutting through a support for the a-frame structure'
+      style: quarter
+      align: flex-start
+    - src: '2022-pikes-peak-aframe/29.jpg'
+      alt: 'people working on a construction scene at the Pikes Peak A-Frame'
+      style: half
   - title: '2021-lake-city'
-    index: 0
-  - title: '2021-cottonwood'
-    index: 11
-  - title: '2021-cottonwood'
-    index: 12
-    
+    images:
+    - src: '2021-lake-city/04.jpg'
+      alt: 'Jean and Sapphie hiking in the snow'
+      style: left
+  - title: '2021-family'
+    images:
+    - src: '2021-family/2021-10-19-rhys-and-kathy.jpg'
+      alt: 'a dog smiling at the camera, covering a person’s face'
+      style: quarter
+    - src: '2021-family/2021-10-19-locked-fight.jpg'
+      alt: 'two dogs locked in a play fight, mirroring each other'
+      style: quarter
+    - src: '2021-family/2021-05-29-dogs-waiting.jpg'
+      alt: 'dogs waiting to be fed at the table'
+      style: quarter
