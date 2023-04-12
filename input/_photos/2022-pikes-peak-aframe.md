@@ -4,8 +4,8 @@ description: 'A photo essay about the repair of the A-Frame shelter on Barr Trai
 date: '2022-08-27T14:00:00'
 updated: '2023-04-06T16:12:00'
 tags:
+  - professional
   - story
-  - portfolio
 story:
   src: '2022-pikes-peak-aframe/29.jpg'
 banner:
@@ -27,13 +27,13 @@ images:
     alt: 'tying boots before the hike'
     style: third
   - src: '2022-pikes-peak-aframe/03.jpg'
-    alt: 'talking through the project'
+    alt: 'organizers and volunteers talking through the project'
     style: third
   - src: '2022-pikes-peak-aframe/01.jpg'
-    alt: ''
+    alt: 'buidling materials for the A-Frame roofing project, indoors'
     style: 'half'
   - src: '2022-pikes-peak-aframe/04.jpg'
-    alt: ''
+    alt: 'detail of loading building materials into a backback'
     style: 'half'
   - src: '2022-pikes-peak-aframe/06.jpg'
     alt: 'silhouettes of volunteers on the summit at sunrise'

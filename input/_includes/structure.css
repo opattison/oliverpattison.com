@@ -12,7 +12,15 @@ h3,
 h4,
 h5,
 h6 {
+  line-height: 1;
   margin: 1em 0 0;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
 }
 
 p {
@@ -27,6 +35,10 @@ ul {
 
 figcaption {
   margin-top: .5em;
+}
+
+figcaption * {
+  margin-top: 0;
 }
 
 hr {
@@ -46,7 +58,8 @@ footer {
   padding: 2em 1em 3em 2em;
 }
 
-.boundary {
+.boundary,
+.boundary--home {
   margin: 0 0 0 auto;
 }
 
@@ -131,42 +144,42 @@ footer {
   width: calc(100% + 1em);
 }
 
-.grid,
-.grid--mini,
-.grid--stories,
-.grid--photo,
-.grid--banner {
+.flex,
+.flex--mini,
+.flex--stories,
+.flex--photo,
+.flex--banner {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   gap: .5em;
   list-style: none;
 }
 
-.grid--mini {
+.flex {
+  align-items: flex-end;
+}
+
+.flex--mini {
   margin: .5em -1em .5em 0;
 }
 
-
-.grid--stories {
+.flex--stories {
   gap: 1em;
 }
 
-.grid--photo {
+.flex--photo {
   margin: 1em 0 0;
 }
-.grid-item {
+
+.flex-item {
   flex: 1 0 100%;
 }
 
-.grid-item--mini {
+.flex-item--mini {
   flex: 1 0 calc(33% - .5em);
 }
 
-.grid-item--photo {
-  flex: 1 0 100%;
-}
-
-.grid-image {
+.flex-image {
   width: 100%;
 }
 
@@ -217,55 +230,65 @@ footer {
     padding: 0;
     width: calc(66.66666667% + .5em);
   }
-    
-  .grid-item {
-    flex: 1 1 calc(50% - 1em);
+  
+  .flex,
+  .flex--mini,
+  .flex--stories,
+  .flex--photo,
+  .flex--banner {
+    display: flex;
+    flex-flow: row wrap;
   }
   
-  .grid-item--photo {
-    flex: 1 1 100%;
-    margin: 0 25%;
-    width: 50%;
+  .flex--stories {
+    gap: 1em .5em;
   }
   
-  .grid-item--photo--full {
+  .flex-item {
+    flex: 0 0 calc(50% - .25em);
+    margin: 0 0 0 calc(25% + .125em);
+  }
+  
+  .flex-item--full {
+    flex: 1 0 100%;
     margin: 0;
     width: 100%;
   }
   
-  .grid-item--photo--center {
-    flex: 0 0 75%;
-    margin: 0 0 0 12.5%;
-    width: 75%;
+  .flex-item--center {
+    flex: 0 0 calc(75% - .125em);
+    margin: 0 0 0 calc(12.5% + .0625em);
   }
   
-  .grid-item--photo--right {
-    flex: 0 0 75%;
-    margin: 0 0 0 25%;
-    width: 75%;
+  .flex-item--right {
+    flex: 0 0 calc(75% - .125em);
+    margin: 0 0 0 calc(25% + .125em);
   }
   
-  .grid-item--photo--left {
-    flex: 0 0 75%;
-    margin: 0 25% 0 0;
-    width: 75%;
+  .flex-item--left {
+    flex: 0 0 calc(75% - .125em);
+    margin: 0 calc(25% + .125em) 0 0;
   }
   
-  .grid-item--photo--half {
+  .flex-item--half {
     flex: 0 0 calc(50% - .25em);
     margin: 0;
-    width: calc(50% - .25em);
   }
   
-  .grid-item--photo--third {
-    flex: 1 0 calc(33% - .25em);
+  .flex-item--third {
+    flex: 0 0 calc(33.33333333% - .3333333333em);
     margin: 0;
-    width: calc(33% - .25em);
+  }
+  
+  .flex-item--quarter {
+    flex: 0 0 calc(25% - .375em);
+    margin: 0;
   }
 }
 
 @media screen and (min-width: 52em) {
-  .boundary {
+  .boundary,
+  .boundary--home {
     max-width: 40em;
   }
   
@@ -284,12 +307,12 @@ footer {
     width: calc(66.66666667% - .2em);
   }
   
-  .grid--mini {
+  .flex--mini {
     margin: .5em 0 0 0;
     flex-flow: row nowrap;
   }
   
-  .grid-item--mini {
+  .flex-item--mini {
     flex: 1 1 1em;
   }
 }
@@ -303,12 +326,17 @@ footer {
     padding: 3em 8vw 3em 16vw;
   }
   
+  .boundary--home {
+    max-width: 60em;
+  }
+  
   .page {
     padding: 2em 8vw 3em 16vw;
   }
   
+  .page--index,
   .introduction {
-    padding-right: 8vw;
+    padding: 2em 8vw 3em 8vw;
   }
   
   .entry {

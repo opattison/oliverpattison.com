@@ -2,18 +2,18 @@
 layout: base.njk
 ---
 
-<div class="page page--stories">
-  <div class="boundary boundary--content">
+<div class="page page--index">
+  <div class="boundary--index">
     <main>
-      <ul class="grid--stories">
+      <ul class="flex--stories">
       {% for post in collections.story | reverse %}
         {% set src = post.data.story.src %}
         {% set alt = post.data.description %}
-        <li class="grid-item">
+        <li class="flex-item--third">
           <a href="{{ post.url }}">
             <figure>
-              {% grid_image src, alt %}
-              <figcaption>{{ post.data.title }}</figcaption>
+              {% flex_image src, alt %}
+              <figcaption><h3>{{ post.data.title }}</h3></figcaption>
             </figure>
           </a>
         </li>
