@@ -63,9 +63,7 @@ portrait:
 	<body>
 		<header>
 			<div class="boundary">
-				<nav class="nav">
-					{% include 'nav-list.njk' %}
-				</nav>
+				{% include 'nav.njk' %}
 				<a class="home" href="/"><h1 class="title">{{ name }}</h1></a>
 				<h2 class="subtitle">{{ subtitle }}</h2>
 			</div>
@@ -83,9 +81,7 @@ portrait:
 					<p>{{ location }}</p>
 					<p>Print portfolio available on request.</p>
 				</div>
-				<nav class="nav--bottom">
-					{% include 'nav-list.njk' %}
-				</nav>
+				{% include 'nav--bottom.njk' %}
 			</div>
 		</footer>
 	</body>
