@@ -1,5 +1,5 @@
 ---
-title: 'Exploring Lake City'
+title: 'exploring Lake City'
 description: 'Photos from a remote place.'
 date: '2021-04-23T12:00:00'
 updated: '2023-04-07T15:55:51'
