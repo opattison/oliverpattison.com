@@ -9,7 +9,7 @@ layout: base.njk
       {% for post in collections.story | reverse %}
         {% set src = post.data.story.src %}
         {% set alt = post.data.description %}
-        <li class="flex-item--third">
+        <li class="flex-item flex-item--third">
           <a href="{{ post.url }}">
             <figure>
               {% flex_image src, alt %}
@@ -21,6 +21,6 @@ layout: base.njk
       </ul>
     {{ content | safe }}
     </main>
-    {% include 'nav-list--home.njk' %}
+    {% include 'nav--page.njk' %}
   </div>
 </div>

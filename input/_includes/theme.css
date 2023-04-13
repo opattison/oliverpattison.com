@@ -1,6 +1,6 @@
 :root {
-  --color-primary: 0 0%;
-  --color-accent: 0 90%;
+  --color-primary: 227 0%;
+  --color-accent: 227 33%;
   
   --light-f0: 0%;
   --light-f1: 16%;
@@ -36,15 +36,25 @@
 }
 
 a,
-a:visited {
-  color: hsl(var(--color-primary) var(--light-f0));
+a:visited {  
+  color: hsl(var(--color-accent) var(--light-f2));
   font-weight: 500;
   text-decoration: underline;
 }
 
 a:focus,
 a:hover {
-  color: hsl(var(--color-accent) var(--light-f2));
+  color: hsl(var(--color-primary) var(--light-f0));
+}
+
+header a,
+header a:visited {
+  text-decoration: none;
+}
+
+header a:focus,
+header a:hover {
+  color: hsl(var(--color-primary) var(--light-f0));
 }
 
 footer {
@@ -54,17 +64,32 @@ footer {
 
 footer a,
 footer a:visited {
-  color: hsl(var(--color-primary) var(--light-f8));
-  text-decoration: underline;
+  color: hsl(var(--color-accent) var(--light-f7));
 }
 
 footer a:focus,
 footer a:hover {
-  color: hsl(var(--color-accent) var(--light-f7));
+  color: hsl(var(--color-primary) var(--light-f9));
+}
+
+.nav a,
+.nav--bottom a,
+.nav--page a {
+  text-decoration: none;
+}
+
+.nav-list-item--inactive,
+.nav-list-item:after,
+.nav-list-item--inactive:after {
+  color: hsl(var(--color-primary) var(--light-f5));
 }
 
 .introduction {
   background-color: hsl(var(--color-primary) var(--light-b2));
+}
+
+.flex-item a {
+  text-decoration: none;
 }
 
 .entry,
