@@ -1,0 +1,16 @@
+<nav class="nav">
+  <ul class="nav-list">
+    {% if page.url == '/' %}<li class="nav-list-item nav-list-item--inactive">portfolio</li>
+    {% else %}
+    <li class="nav-list-item"><a href="/">portfolio</a></li>
+    {% endif %}
+    {% if page.url == '/stories/' %}<li class="nav-list-item nav-list-item--inactive">stories</li>
+    {% else %}
+    <li class="nav-list-item"><a href="/stories/">stories</a></li>
+    {% endif %}
+    {% if page.url == '/about/' %}<li class="nav-list-item nav-list-item--inactive">about</li>
+    {% else %}
+    <li class="nav-list-item"><a href="/about/">about</a></li>
+    {% endif %}
+  </ul>
+</nav>
