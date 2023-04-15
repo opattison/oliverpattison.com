@@ -1,6 +1,6 @@
 ---
 title: 'Flora on Pikes Peak'
-description: ''
+description: 'Photos were taken in October 2022 on the side of Barr Trail, near the summit of Pikes Peak.'
 date: '2022-08-27T06:30:00'
 updated: '2023-04-08T12:15:59'
 tags:
