@@ -32,6 +32,18 @@ posts:
     - src: '2022-pikes-peak-aframe/29.jpg'
       alt: 'people working on a construction scene at the Pikes Peak A-Frame'
       style: half
+  - title: '2022-redcloud'
+    images:
+    - src: '2022-redcloud/07.jpg'
+      alt: 'a steep mountainside and ridgeline viewed from afar'
+      style: full
+    - src: '2022-redcloud/05.jpg'
+      alt: 'a person hiking up switchbacks over a scree field to the top of Redcloud Peak'
+      style: third
+    - src: '2022-redcloud/00.jpg'
+      alt: 'detail of a person using hiking poles on a trial'
+      style: half
+      align: flex-start
   - title: '2021-lake-city'
     images:
     - src: '2021-lake-city/04.jpg'
