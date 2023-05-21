@@ -10,12 +10,15 @@ images:
   - src: '2022-redcloud/07.jpg'
     alt: 'a steep mountainside and ridgeline viewed from afar'
     style: full
-  - src: '2021-lake-city/01.jpg'
-    style: full
-    alt: 'snowy mountainsides viewed from a distance, emerging through the fog'
-  - src: '2023-landscapes/00.jpg'
+  - src: '2023-landscapes/01.jpg'
+    alt: 'Gray Rock, Garden of the Gods'
     style: center
+  - src: '2021-lake-city/01.jpg'
+    alt: 'snowy mountainsides viewed from a distance, emerging through the fog'
+    style: full
+  - src: '2023-landscapes/00.jpg'
     alt: 'two hikers small in the distance, near Independence Pass with streaks of snow on mountains in summer'
+    style: right
   - src: '2022-pikes-peak-flora/04.jpg'
     alt: 'a distant view down the side of Pikes Peak and surrounding mountains from higher up on Barr'
     style: right
