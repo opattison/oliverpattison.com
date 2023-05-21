@@ -8,9 +8,9 @@ banner:
   alt: 'David Bradley, blacksmith hammering a spoon in his work space'
 entry:
   '
-  ## David Bradley – blacksmithing in Manitou Springs
+  ## blacksmithing in Manitou Springs
   
-  [David Bradley](https://www.farmersforge.org) is an artist and blacksmith who makes heirloom ironwork. He primarily crafts functional cookware. The metal is crafted with care and precision under many iterations into the flame and out again, rapidly heated and cooled, shaped like a living material.
+  [David Bradley](https://www.farmersforge.org) is an artist and blacksmith who makes heirloom ironwork at the [Manitou Art Center](https://www.manitouartcenter.org). He primarily crafts functional cookware. The metal is crafted with care and precision under many iterations into the flame and out again, rapidly heated and cooled, shaped like a living material.
   '
 tags:
   - professional
