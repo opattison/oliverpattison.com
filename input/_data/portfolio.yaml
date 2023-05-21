@@ -1,4 +1,12 @@
 posts:
+  - title: '2023-blacksmithing'
+    images:
+    - src: '2023-blacksmithing/04.jpg'
+      alt: 'the moment of impact as a blacksmith’s hammer hits a piece of iron'
+      style: left
+    - src: '2023-blacksmithing/00.jpg'
+      alt: 'David Bradley, blacksmith hammering a spoon in his work space'
+      style: right
   - title: '2022-pikes-peak-aframe'
     images:
     - src: '2022-pikes-peak-aframe/09.jpg'
