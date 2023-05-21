@@ -49,6 +49,9 @@ images:
   - src: '2023-blacksmithing/11.jpg'
     alt: 'a nearly finished metal snake sculpture being treated with bee’s wax, steaming'
     style: half
+  - src: '2023-blacksmithing/01.jpg'
+    alt: 'tools in a blacksmith’s workshop, bright red, yellow, and blue'
+    style: right
   - src: '2023-blacksmithing/00.jpg'
     alt: 'David Bradley, blacksmith hammering a spoon in his work space'
     style: full
