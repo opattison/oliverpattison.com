@@ -40,6 +40,11 @@ posts:
     - src: '2022-pikes-peak-aframe/29.jpg'
       alt: 'people working on a construction scene at the Pikes Peak A-Frame'
       style: half
+  - title: '2023-colorado-springs'
+    images:
+    - src: '2023-colorado-springs/00.jpg'
+      alt: 'a light blue Volkswagen Beetle, head on'
+      style: right
   - title: '2022-redcloud'
     images:
     - src: '2022-redcloud/07.jpg'
@@ -56,7 +61,13 @@ posts:
     images:
     - src: '2021-lake-city/04.jpg'
       alt: 'Jean and Sapphie hiking in the snow'
-      style: left
+      style: half
+    - src: '2021-lake-city/02.jpg'
+      alt: 'a conifer forest on a mountainside covered in dense snow'
+      style: quarter
+    - src: '2021-lake-city/01.jpg'
+      alt: 'snowy mountainsides viewed from a distance, emerging through the fog'
+      style: quarter
   - title: '2021-family'
     images:
     - src: '2021-family/2021-10-19-rhys-and-kathy.jpg'
@@ -67,11 +78,6 @@ posts:
       style: quarter
     - src: '2021-family/2021-05-29-dogs-waiting.jpg'
       alt: 'dogs waiting to be fed at the table'
-      style: quarter
-  - title: '2020-jean'
-    images:
-    - src: '2020-jean/2020-07-10-portrait.jpg'
-      alt: 'a portrait of Jean at sunset'
       style: quarter
   - title: '2021-cottonwood'
     images:
