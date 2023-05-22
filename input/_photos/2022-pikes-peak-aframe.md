@@ -7,6 +7,7 @@ tags:
   - professional
   - story
 story:
+  size: half
   src: '2022-pikes-peak-aframe/29.jpg'
 banner:
   src: '2022-pikes-peak-aframe/29-wide.jpg'
