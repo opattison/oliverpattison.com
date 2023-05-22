@@ -7,6 +7,14 @@ posts:
     - src: '2023-blacksmithing/00.jpg'
       alt: 'David Bradley, blacksmith hammering a spoon in his work space'
       style: right
+  - title: '2023-colorado-springs'
+    images:
+    - src: '2023-colorado-springs/12.jpg'
+      alt: 'a mural being painted in downtown Colorado Springs'
+      style: half
+    - src: '2023-colorado-springs/11.jpg'
+      alt: 'a painter’s brush working on a mural being painted in downtown Colorado Springs'
+      style: half
   - title: '2022-pikes-peak-aframe'
     images:
     - src: '2022-pikes-peak-aframe/09.jpg'
