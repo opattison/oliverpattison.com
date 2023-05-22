@@ -9,6 +9,12 @@ tags:
 story:
   src: '2023-colorado-springs/00.jpg'
 images:
+  - src: '2023-colorado-springs/12.jpg'
+    alt: 'a mural being painted in downtown Colorado Springs'
+    style: full
+  - src: '2023-colorado-springs/11.jpg'
+    alt: 'a painter’s brush working on a mural being painted in downtown Colorado Springs'
+    style: left
   - src: '2023-colorado-springs/00.jpg'
     alt: 'a light blue Volkswagen Beetle, head on'
     style: full
@@ -38,12 +44,6 @@ images:
   - src: '2023-colorado-springs/10.jpg'
     alt: 'an orange Volkswagen Bus, detail of front window'
     style: right
-  - src: '2023-colorado-springs/12.jpg'
-    alt: 'a mural being painted in downtown Colorado Springs'
-    style: full
-  - src: '2023-colorado-springs/11.jpg'
-    alt: 'a painter’s brush working on a mural being painted in downtown Colorado Springs'
-    style: left
 ---
 
 ## running ’round this town 
