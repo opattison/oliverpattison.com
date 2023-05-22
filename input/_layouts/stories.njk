@@ -9,11 +9,12 @@ layout: base.njk
       {% for post in collections.story | reverse %}
         {% set src = post.data.story.src %}
         {% set alt = post.data.description %}
-        <li class="flex-item flex-item--third">
+        {% set size = post.data.story.size %}
+        <li class="flex-item flex-item--{% if size %}{{ size }}{% else %}third{% endif %}">
           <a href="{{ post.url }}">
             <figure>
               {% flex_image src, alt %}
-              <figcaption><h3>{{ post.data.title }}</h3></figcaption>
+              <figcaption><h3 class="title--story">{{ post.data.title }}</h3></figcaption>
             </figure>
           </a>
         </li>

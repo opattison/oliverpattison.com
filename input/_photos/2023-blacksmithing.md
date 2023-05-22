@@ -1,7 +1,10 @@
 ---
 title: blacksmithing in Manitou Springs
+description: 'documenting the work of a blacksmith in Manitou Springs'
 date: '2023-05-20T15:10:00'
+updated: '2023-05-21T12:00:00'
 story:
+  size: half
   src: '2023-blacksmithing/04.jpg'
 banner:
   src: '2023-blacksmithing/00.jpg'

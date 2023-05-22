@@ -1,6 +1,7 @@
 ---
 title: Colorado landscapes
 date: '2020-01-01T12:00:00'
+updated: '2023-05-20T12:00:00'
 tags:
   - personal
 images:
