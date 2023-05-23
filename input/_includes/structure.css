@@ -337,9 +337,12 @@ footer {
     padding: 2em 8vw 3em 16vw;
   }
   
-  .page--index,
-  .introduction {
+  .page--index {
     padding: 2em 8vw 3em 8vw;
+  }
+  
+  .introduction {
+    padding: 2em 32vw 3em 8vw;
   }
   
   .entry {
