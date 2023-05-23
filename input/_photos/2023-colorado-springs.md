@@ -2,7 +2,7 @@
 title: running ’round this town
 description: 'scenes from Old Colorado City and downtown Colorado Springs'
 date: '2023-05-19T08:36:00'
-updated: '2023-05-22T14:39:30'
+updated: '2023-05-23Z00:45:53'
 tags:
   - personal
   - story
