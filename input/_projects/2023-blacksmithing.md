@@ -1,23 +1,20 @@
 ---
 title: blacksmithing in Manitou Springs
-description: 'documenting the work of a blacksmith in Manitou Springs'
+description: 'documenting a blacksmith, David Bradley, at the Manitou Art Center'
 date: '2023-05-20T15:10:00'
-updated: '2023-05-21T12:00:00'
-story:
-  size: half
+updated: '2023-06-29T11:58:01'
+vignette:
   src: '2023-blacksmithing/04.jpg'
+  period: '2023'
 banner:
   src: '2023-blacksmithing/00.jpg'
   alt: 'David Bradley, blacksmith hammering a spoon in his work space'
 entry:
-  '
-  ## blacksmithing in Manitou Springs
-  
+  '  
   [David Bradley](https://www.farmersforge.org) is an artist and blacksmith who makes heirloom ironwork at the [Manitou Art Center](https://www.manitouartcenter.org). He primarily crafts functional cookware. The metal is crafted with care and precision under many iterations into the flame and out again, rapidly heated and cooled, shaped like a living material.
   '
 tags:
   - professional
-  - story
 images:
   - src: '2023-blacksmithing/04.jpg'
     alt: 'the moment of impact as a blacksmith’s hammer hits a piece of iron'
@@ -59,3 +56,5 @@ images:
     alt: 'David Bradley, blacksmith hammering a spoon in his work space'
     style: full
 ---
+
+This project is a proof-of-concept for the kind of mode and style I want to work in – immediate and intimate, with a dense and high-contrast look. I hope to document many artists within the Colorado Springs arts communities in this manner.

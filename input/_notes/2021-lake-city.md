@@ -1,19 +1,16 @@
 ---
 title: 'exploring Lake City'
-description: 'Photos from a remote place.'
+description: 'scenes from a remote place in Western Colorado'
 date: '2021-04-23T12:00:00'
 updated: '2023-04-07T15:55:51'
 tags:
   - personal
-  - story
-story:
+vignette: 
   src: '2021-lake-city/04.jpg'
 banner:
   src: '2021-lake-city/02-wide.jpg'
   alt: 'a conifer forest on a mountainside covered in dense snow'
 entry: '
-  ## Exploring Lake City
-  
   Lake City, in [southwestern Colorado](https://en.wikipedia.org/wiki/Hinsdale_County,_Colorado), is a beautiful place that is among the most remote and least populated locations in the United States.
   '
 images:

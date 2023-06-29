@@ -1,0 +1,34 @@
+---
+layout: base.njk
+---
+
+<div class="page page--index">
+  <div class="boundary--index">
+    <main>
+      <ul class="flex--notes">
+      {% for post in collections.note | reverse %}
+        {% set src = post.data.vignette.src %}
+        {% set alt = post.data.description %}
+        {% set style = "vignette-image--note" %}
+        {% set date = post.data.date %}
+        <li class="flex-item flex-item--full">
+          <a href="{{ post.url }}">
+            <figure class="vignette--note">
+              {% image_flex src, alt, style %}
+              <figcaption class="vignette-caption--note">
+                <h3 class="vignette-title">{{ post.data.title }}</h3>
+                <p class="vignette-date">{{ date | toISODate }}</p>
+                <p class="vignette-description">{{ alt }}</p>
+              </figcaption>
+            </figure>
+          </a>
+        </li>
+      {% endfor %}
+      </ul>
+    {{ content | safe }}
+    </main>
+  </div>
+</div>
+<section class="introduction">
+{% include 'currently.njk' %}
+</section>

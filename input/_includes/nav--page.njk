@@ -1,10 +1,13 @@
 <nav class="nav--page">
   <ul class="nav-list">
     <li class="nav-list-item"><a href="/">back to portfolio</a></li>
-    {% if page.url !== '/stories/' %}
-    {% if page.url !== '/about/' %}
-    <li class="nav-list-item"><a href="/stories/">back to stories</a>
-    {% endif %}
+    {% if tags %}
+      {% if 'project' in tags %}
+      <li class="nav-list-item"><a href="/projects/">back to projects</a>
+      {% endif %}
+      {% if 'note' in tags %}
+      <li class="nav-list-item"><a href="/notes/">back to notes</a>
+      {% endif %}
     {% endif %}
   </ul>
 </nav>
