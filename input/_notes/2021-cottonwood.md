@@ -1,12 +1,11 @@
 ---
 title: 'Cottonwood Pass hiking'
-description: 'Photos from a hike on Cottonwood Pass on the continental divide in Western Colorado.'
+description: 'a fall morning on the continental divide in western Colorado'
 date: '2021-10-03T12:00:00'
 updated: '2023-04-07T16:03:00'
 tags:
   - personal
-  - story
-story:
+vignette: 
   src: '2021-cottonwood-2023-04/11.jpg'
 banner:
   src: '2021-cottonwood-2023-04/11-wider.jpg'
@@ -59,3 +58,4 @@ images:
     alt: 'a mountain peak with snow'
     style: right
 ---
+

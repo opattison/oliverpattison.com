@@ -1,20 +1,17 @@
 posts:
-  - title: '2023-blacksmithing'
+  - title: '2023-art'
     images:
     - src: '2023-blacksmithing/04.jpg'
       alt: 'the moment of impact as a blacksmith’s hammer hits a piece of iron'
       style: left
-    - src: '2023-blacksmithing/00.jpg'
-      alt: 'David Bradley, blacksmith hammering a spoon in his work space'
+    - src: '2023-06-27-142246-mcclure.jpg'
+      alt: 'a painter’s hand applying white paint to a mural with splashes of red, blue and orange in the background'
       style: right
-  - title: '2023-colorado-springs'
-    images:
-    - src: '2023-colorado-springs/12.jpg'
+    - src: '2023-05-17-151923-mcclure.jpg'
       alt: 'a mural being painted in downtown Colorado Springs'
-      style: half
-    - src: '2023-colorado-springs/11.jpg'
-      alt: 'a painter’s brush working on a mural being painted in downtown Colorado Springs'
-      style: half
+    - src: '2023-06-15-143721-groovy.jpg'
+      alt: 'a manual screen printing press in use, primary colors of blue and yellow'
+      style: right
   - title: '2022-pikes-peak-aframe'
     images:
     - src: '2022-pikes-peak-aframe/09.jpg'
@@ -76,29 +73,13 @@ posts:
     - src: '2021-lake-city/01.jpg'
       alt: 'snowy mountainsides viewed from a distance, emerging through the fog'
       style: quarter
+  - title: '2023-sapphie-spring'
+    images:
+    - src: '2023-03-17-073612-home.jpg'
+      alt: 'Sapphie the dog in the snow'
+      style: half
   - title: '2021-family'
     images:
-    - src: '2021-family/2021-10-19-rhys-and-kathy.jpg'
-      alt: 'a dog smiling at the camera, covering a person’s face'
-      style: quarter
     - src: '2021-family/2021-10-19-locked-fight.jpg'
       alt: 'two dogs locked in a play fight, mirroring each other'
-      style: quarter
-    - src: '2021-family/2021-05-29-dogs-waiting.jpg'
-      alt: 'dogs waiting to be fed at the table'
-      style: quarter
-  - title: '2021-cottonwood'
-    images:
-    - src: '2021-cottonwood-2023-04/11.jpg'
-      alt: 'a portrait of Sapphie the dog standing on top of a mountain smiling'
-      style: right
-    - src: '2021-cottonwood-2023-04/09.jpg'
-      alt: 'mountain peaks with a marsh below'
-      style: third
-    - src: '2021-cottonwood-2023-04/10.jpg'
-      alt: 'trail marker for Continental Divide Trail and Colorado Trail'
-      style: third
-      align: center
-    - src: '2021-cottonwood-2023-04/08.jpg'
-      alt: 'a mountain peak with snow'
-      style: third
+      style: half

@@ -5,16 +5,13 @@ date: '2022-08-27T14:00:00'
 updated: '2023-04-06T16:12:00'
 tags:
   - professional
-  - story
-story:
-  size: half
+vignette:
   src: '2022-pikes-peak-aframe/29.jpg'
+  period: '2022'
 banner:
   src: '2022-pikes-peak-aframe/29-wide.jpg'
   alt: 'people working on a construction scene at the Pikes Peak A-Frame'
-entry: '
-  ## Pikes Peak A-Frame repair project
-  
+entry: '  
   In summer 2022, a group of volunteers with [Colorado Mountain Club](https://www.cmc.org) set out to repair the A-Frame shelter on Barr Trail, the 12.5 mile trail that winds from Manitou Springs to the summit of Pikes Peak (also known as Tava or “mountain of the sun”, according to the Ute People of the Front Range). This is my document of their work.
   '
 images:
