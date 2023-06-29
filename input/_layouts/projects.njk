@@ -12,7 +12,7 @@ layout: base.njk
         {% set style = "vignette-image" %}
         {% set size = post.data.vignette.size %}
         {% set period = post.data.vignette.period %}
-        <li class="flex-item flex-item--{% if size %}{{ size }}{% else %}half{% endif %}">
+        <li class="flex-item flex-item--projects">
           <a href="{{ post.url }}">
             <figure class="vignette">
               {% image_flex src, alt, style %}

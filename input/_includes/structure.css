@@ -162,12 +162,9 @@ footer {
   margin: .5em -1em .5em 0;
 }
 
-.flex--projects {
-  gap: 1em;
-}
-
+.flex--projects,
 .flex--notes {
-  gap: 1.5em;
+  gap: 1em;
 }
 
 .flex--photo {
@@ -301,6 +298,11 @@ footer {
     flex: 0 0 calc(25% - .375em);
     margin: 0;
   }
+  
+  .flex-item--projects {
+    flex: 0 0 calc(50% - .5em - .01px);
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 52em) {
@@ -321,7 +323,7 @@ footer {
   
   .flex--projects {
     flex-flow: row wrap;
-    gap: 1em .5em;
+    gap: 1em;
   }
   
   .vignette--note {
