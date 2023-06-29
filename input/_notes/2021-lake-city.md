@@ -11,8 +11,6 @@ banner:
   src: '2021-lake-city/02-wide.jpg'
   alt: 'a conifer forest on a mountainside covered in dense snow'
 entry: '
-  ## Exploring Lake City
-  
   Lake City, in [southwestern Colorado](https://en.wikipedia.org/wiki/Hinsdale_County,_Colorado), is a beautiful place that is among the most remote and least populated locations in the United States.
   '
 images:

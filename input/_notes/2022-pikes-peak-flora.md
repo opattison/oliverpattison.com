@@ -1,5 +1,5 @@
 ---
-title: 'Flora on Pikes Peak'
+title: 'flora on Pikes Peak'
 description: 'fragile life alongside Barr Trail'
 date: '2022-08-27T06:30:00'
 updated: '2023-04-08T12:15:59'
@@ -7,9 +7,6 @@ tags:
   - personal
 vignette: 
   src: '2022-pikes-peak-flora/00.jpg'
-banner:
-  src: '2022-pikes-peak-flora/00-wide.jpg'
-  alt: 'yellow flowers on the side of Barr Trail'
 images:
   - src: '2022-pikes-peak-flora/02.jpg'
     alt: 'red and green succulent plants on reddish rocks on the side of Barr Trail'
@@ -25,7 +22,7 @@ images:
     style: half
   - src: '2022-pikes-peak-flora/04.jpg'
     alt: 'a distant view down the side of Pikes Peak and surrounding mountains from higher up on Barr'
-    style: right
+    style: left
 
 ---
 
