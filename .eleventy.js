@@ -15,6 +15,7 @@ module.exports = function(eleventyConfig) {
   const markdown = require("markdown-it")({
     html: true
   });
+  const luxon = require("luxon");
   const yaml = require("js-yaml");
   const cleancss = require("clean-css");
   const imgix = require("@imgix/js-core");
@@ -22,7 +23,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addShortcode("markdown", (content) => {
     return markdown.render(content);
   });
-    
+  
+  eleventyConfig.addFilter("toISODate", (date) => {
+    return luxon.DateTime.fromISO(date).toISODate();
+  });
+
   eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
   
   eleventyConfig.addFilter("cssmin", function(code) {
