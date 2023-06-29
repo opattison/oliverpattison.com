@@ -5,6 +5,7 @@ date: '2023-05-20T15:10:00'
 updated: '2023-05-21T12:00:00'
 vignette:
   src: '2023-blacksmithing/04.jpg'
+  period: '2023'
 banner:
   src: '2023-blacksmithing/00.jpg'
   alt: 'David Bradley, blacksmith hammering a spoon in his work space'
