@@ -1,7 +1,7 @@
 ---
 title: family at home
 description: 'a series on my family at home in Virginia and Colorado'
-date: '2021-05-29T12:00:00'
+date: '2021-10-20T12:00:00'
 updated: '2023-04-12T13:50:24'
 tags:
   - personal
