@@ -16,7 +16,10 @@ permalink: /{{ page.fileSlug }}/
   <div class="boundary">
     <main>
     {% if entry %}
-      <section class="entry">{% markdown entry %}</section>
+      <section class="entry">
+      <h2>{{ title }}</h2>
+      {% markdown entry %}
+      </section>
     {% endif %}
       <section class="flex--photo">
       {% for image in images %}
