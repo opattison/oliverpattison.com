@@ -4,9 +4,13 @@
     {% else %}
     <li class="nav-list-item"><a href="/">portfolio</a></li>
     {% endif %}
-    {% if page.url == '/stories/' %}<li class="nav-list-item nav-list-item--inactive">stories</li>
+    {% if page.url == '/projects/' %}<li class="nav-list-item nav-list-item--inactive">projects</li>
     {% else %}
-    <li class="nav-list-item"><a href="/stories/">stories</a></li>
+    <li class="nav-list-item"><a href="/projects/">projects</a></li>
+    {% endif %}
+    {% if page.url == '/notes/' %}<li class="nav-list-item nav-list-item--inactive">notes</li>
+    {% else %}
+    <li class="nav-list-item"><a href="/notes/">notes</a></li>
     {% endif %}
     {% if page.url == '/about/' %}<li class="nav-list-item nav-list-item--inactive">about</li>
     {% else %}

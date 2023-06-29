@@ -88,6 +88,11 @@ footer a:hover {
   background-color: hsl(var(--color-primary) var(--light-b2));
 }
 
+.vignette,
+.vignette--note {
+  background-color: hsl(var(--color-primary) var(--light-b0));
+}
+
 .flex-item a {
   text-decoration: none;
 }

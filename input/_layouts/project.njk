@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-permalink: /stories/{{ page.fileSlug }}/
+permalink: /{{ page.fileSlug }}/
 ---
 
 {% if banner %}
@@ -8,7 +8,7 @@ permalink: /stories/{{ page.fileSlug }}/
     {% set src = banner.src %}
     {% set alt = banner.alt %}
     <figure class="flex-item flex-item--full">
-    {% photo src, alt %}
+    {% image_full src, alt %}
     </figure>
   </section>
 {% endif %}
@@ -16,7 +16,10 @@ permalink: /stories/{{ page.fileSlug }}/
   <div class="boundary">
     <main>
     {% if entry %}
-      <section class="entry">{% markdown entry %}</section>
+      <section class="entry">
+      <h2>{{ title }}</h2>
+      {% markdown entry %}
+      </section>
     {% endif %}
       <section class="flex--photo">
       {% for image in images %}
@@ -25,13 +28,17 @@ permalink: /stories/{{ page.fileSlug }}/
         {% set style = image.style %}
         
         <figure class="flex-item{% if style %} flex-item--{{ style }}{% endif %}">
-        {% photo src, alt %}
+        {% image_full src, alt %}
         </figure>
       {% endfor %}
       </section>
       
       <section class="content--photo">
       {{ content | safe }}
+      
+      {% if period %}
+        <p>{{ period }}</p>
+      {% endif %}
       </section>
     </main>
     {% include 'nav--page.njk' %}

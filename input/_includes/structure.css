@@ -90,7 +90,7 @@ footer {
 }
 
 .nav--page {
-  margin: 6em 0 0;
+  margin: 3em 0 0;
 }
 
 .nav-list {
@@ -137,7 +137,7 @@ footer {
   margin-top: 2em;
 }
 
-.photo--profile {
+.image--profile {
   margin: .5em -1em .5em 0;
   max-width: none;
   width: calc(100% + 1em);
@@ -145,7 +145,8 @@ footer {
 
 .flex,
 .flex--mini,
-.flex--stories,
+.flex--projects,
+.flex--notes,
 .flex--photo,
 .flex--banner {
   display: flex;
@@ -154,7 +155,9 @@ footer {
   list-style: none;
 }
 
-.flex {
+.flex,
+.flex--projects,
+.flex--notes {
   align-items: flex-end;
 }
 
@@ -163,9 +166,12 @@ footer {
   margin: .5em -1em .5em 0;
 }
 
-.flex--stories {
+.flex--projects {
   gap: 1em;
-  align-items: flex-end;
+}
+
+.flex--notes {
+  gap: 1.5em;
 }
 
 .flex--photo {
@@ -181,12 +187,24 @@ footer {
   flex: 1 1 calc(33% - .5em);
 }
 
-.flex-image {
+.image {
   width: 100%;
 }
 
-.title--story {
-  font-size: .9em;
+.vignette-date {
+  font-weight: 300;
+}
+
+.vignette-caption,
+.vignette-caption--note {
+  margin: 0;
+  padding: 1em;
+}
+
+.vignette-description {
+  font-weight: 300;
+  margin-top: 1.5em;
+  line-height: 1.3;
 }
 
 .contact {
@@ -231,21 +249,16 @@ footer {
     padding: 2em 2em 10em;
   }
     
-  .photo--profile {
+  .image--profile {
     margin: -8em -1em .5em calc(33.33333333% + .5em);
     padding: 0;
     width: calc(66.66666667% + .5em);
   }
   
   .flex,
-  .flex--stories,
   .flex--photo,
   .flex--banner {
     flex-flow: row wrap;
-  }
-  
-  .flex--stories {
-    gap: 1em .5em;
   }
   
   .flex--mini {
@@ -279,7 +292,7 @@ footer {
   }
   
   .flex-item--half {
-    flex: 0 0 calc(50% - .25em);
+    flex: 0 0 calc(50% - .25em - .01px);
     margin: 0;
   }
   
@@ -310,7 +323,26 @@ footer {
     padding: 2em 2em 3em calc(16.66666667% + .1em);
   }
   
-  .photo--profile {
+  .flex--projects {
+    flex-flow: row wrap;
+    gap: 1em .5em;
+  }
+  
+  .vignette--note {
+    display: flex;
+  }
+  
+  .vignette-image--note {
+    flex: 0 0 33.33333333%;
+    width: 33.33333333%;
+  }
+  
+  .vignette-caption--note {
+    margin-top: .5em;
+    margin-left: 3em;
+  }
+  
+  .image--profile {
     margin: -8em 0 .5em calc(33.33333333% + .2em);
     width: calc(66.66666667% - .2em);
   }

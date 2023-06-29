@@ -36,7 +36,7 @@ module.exports = function(eleventyConfig) {
   });
   const basePath = "/images/";
     
-  eleventyConfig.addShortcode("flex_image", (path, alt) => { 
+  eleventyConfig.addShortcode("image_flex", (path, alt, style) => { 
     const defaultWidth = 501;
     const defaultHeight = 334;
     const srcDev = basePath + path;
@@ -56,41 +56,14 @@ module.exports = function(eleventyConfig) {
     const sizes = "(min-width: 35em) calc(50vw - 3em), (min-width: 28em) calc(50vw - 2em), calc(100vw - 4em)";
     
     if (process.env.NODE_ENV === 'development') {
-      return `<img src="${srcDev}" alt="${alt}" class="flex-image">`;
+      return `<img src="${srcDev}" alt="${alt}" class="image ${style}">`;
     }
     else {
-      return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="flex-image">`;
+      return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="image ${style}">`;
     };
   });
   
-  eleventyConfig.addShortcode("photo_profile", (path, alt) => {
-    const defaultWidth = 501;
-    const defaultHeight = 334;
-    const srcDev = basePath + path;
-    
-    const src = client.buildURL(path, 
-      {
-        w: defaultWidth,
-        h: defaultHeight
-      }
-    );
-    
-    const srcset = client.buildSrcSet(path,
-      {},
-      { widths: [300, 501, 699, 900, 1101, 1299, 1500] }
-    );
-    
-    const sizes = "(min-width: 52em) 37.5vw, (min-width: 35em) calc(50vw - 3em), calc(100vw - 2em)";
-    
-    if (process.env.NODE_ENV === 'development') {
-      return `<img src="${srcDev}" alt="${alt}" class="photo--profile">`;
-    }
-    else {
-      return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="photo--profile">`;
-    };
-  });
-  
-  eleventyConfig.addShortcode("photo", (path, alt) => {
+  eleventyConfig.addShortcode("image_full", (path, alt) => {
     const defaultWidth = 1026;
     const defaultHeight = 684;
     const srcDev = basePath + path;
@@ -110,10 +83,10 @@ module.exports = function(eleventyConfig) {
     const sizes = "calc(100vw - 2em)";
         
     if (process.env.NODE_ENV === 'development') {
-      return `<img src="${srcDev}" alt="${alt}" class="flex-image">`;
+      return `<img src="${srcDev}" alt="${alt}" class="image">`;
     }
     else {
-      return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="flex-image">`;
+      return `<img src="${src}" srcset="${srcset}" sizes="${sizes}" alt="${alt}" width="${defaultWidth}" height="${defaultHeight}" class="image">`;
     };
   });
   

@@ -9,10 +9,15 @@ layout: base.njk
       {% if entry %}{% markdown entry %}{% endif %}
       {% if callout %}{% markdown callout %}{% endif %}
       </section>
-      {% photo_profile portrait.src, portrait.alt %}
+      {% set src = portrait.src %}
+      {% set alt = portrait.alt %}
+      {% set style = "image--profile" %}
+      {% image_flex src, alt, style %}
       <ul class="flex--mini">
        {% for image in about.images %}
-        <li class="flex-item--mini">{% flex_image image.src, image.alt %}</li>
+        {% set src = image.src %}
+        {% set alt = image.alt %}
+        <li class="flex-item--mini">{% image_flex src, alt %}</li>
       {% endfor %}
       </ul>
       <section class="content--about">
@@ -23,5 +28,5 @@ layout: base.njk
   </div>
 </div>
 <section class="introduction">
-{% include 'projects.njk' %}
+{% include 'currently.njk' %}
 </section>
