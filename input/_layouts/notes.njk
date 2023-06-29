@@ -17,7 +17,7 @@ layout: base.njk
               {% image_flex src, alt, style %}
               <figcaption class="vignette-caption--note">
                 <h3 class="vignette-title">{{ post.data.title }}</h3>
-                <p class="vignette-date">{{ date }}</p>
+                <p class="vignette-date">{{ date | toISODate }}</p>
                 <p class="vignette-description">{{ alt }}</p>
               </figcaption>
             </figure>
