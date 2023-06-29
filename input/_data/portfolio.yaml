@@ -1,20 +1,17 @@
 posts:
-  - title: '2023-blacksmithing'
+  - title: '2023-art'
     images:
     - src: '2023-blacksmithing/04.jpg'
       alt: 'the moment of impact as a blacksmith’s hammer hits a piece of iron'
       style: left
-    - src: '2023-blacksmithing/00.jpg'
-      alt: 'David Bradley, blacksmith hammering a spoon in his work space'
+    - src: '2023-06-27-142246-mcclure.jpg'
+      alt: 'a painter’s hand applying white paint to a mural with splashes of red, blue and orange in the background'
       style: right
-  - title: '2023-colorado-springs'
-    images:
-    - src: '2023-colorado-springs/12.jpg'
+    - src: '2023-05-17-151923-mcclure.jpg'
       alt: 'a mural being painted in downtown Colorado Springs'
-      style: half
-    - src: '2023-colorado-springs/11.jpg'
-      alt: 'a painter’s brush working on a mural being painted in downtown Colorado Springs'
-      style: half
+    - src: '2023-06-15-143721-groovy.jpg'
+      alt: 'a manual screen printing press in use, primary colors of blue and yellow'
+      style: right
   - title: '2022-pikes-peak-aframe'
     images:
     - src: '2022-pikes-peak-aframe/09.jpg'

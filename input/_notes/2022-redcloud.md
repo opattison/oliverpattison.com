@@ -1,13 +1,12 @@
 ---
 title: 'Redcloud and Sunshine'
-description: 'Hiking two fourteeners in one day.'
+description: 'wild and solitary fourteeners'
 date: '2022-08-08T12:00:00'
 updated: '2023-04-17T16:51:37'
 tags:
   - personal
-  - story
-story:
-  src: '2022-redcloud/07.jpg'
+vignette: 
+  src: '2022-redcloud/02.jpg'
 images:
   - src: '2022-redcloud/03.jpg'
     alt: 'Sapphie the dog with a backpack on, looking out from a mountainside trail'
