@@ -12,6 +12,7 @@ posts:
     - src: '2023-06-15-143721-groovy.jpg'
       alt: 'a manual screen printing press in use, primary colors of blue and yellow'
       style: right
+    - src: '2023-06-15-142150-groovy.jpg'
   - title: '2022-pikes-peak-aframe'
     images:
     - src: '2022-pikes-peak-aframe/09.jpg'
@@ -77,9 +78,21 @@ posts:
     images:
     - src: '2023-03-17-073612-home.jpg'
       alt: 'Sapphie the dog in the snow'
-      style: half
+      style: full
+    - src: '2023-05-18-182939-home.jpg'
+      alt: 'a hand petting a black dog looking out of a window'
+      style: quarter
   - title: '2021-family'
     images:
     - src: '2021-family/2021-10-19-locked-fight.jpg'
       alt: 'two dogs locked in a play fight, mirroring each other'
-      style: half
+      style: quarter
+  - title: '2023-virginia-spring'
+    images:
+    - src: '2023-03-26-195552-virginia.jpg'
+      style: quarter
+  - title: '2023-colorado-springs-february'
+    images:
+    - src: '2023-02-20-093527-street.jpg'
+      style: quarter
+  
