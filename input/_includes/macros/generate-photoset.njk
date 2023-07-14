@@ -1,0 +1,14 @@
+{% macro generate(photoset) %}
+  <section class="flex--photo">
+  {%- for photo in photoset -%}
+    {%- for image in collections.image -%}
+      {%- if photo.src == image.data.src -%}
+        <figure class="flex-item flex-item--{{ photo.style }}">
+          {% image_full image.data.src, image.data.alt %}
+          {%- if photo.caption %}<figcaption>{% markdown photo.caption %}</figcaption>{% endif -%}
+        </figure>
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+  </section>
+{% endmacro %}
