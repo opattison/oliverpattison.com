@@ -1,98 +1,83 @@
-posts:
+links:
   - title: '2023-art'
     images:
-    - src: '2023-blacksmithing/04.jpg'
-      alt: 'the moment of impact as a blacksmith’s hammer hits a piece of iron'
+    - src: '20230520-151749-david-bradley.jpg'
       style: left
-    - src: '2023-06-27-142246-mcclure.jpg'
-      alt: 'a painter’s hand applying white paint to a mural with splashes of red, blue and orange in the background'
+    - src: '20230627-142246-molly-mcclure.jpg'
       style: right
-    - src: '2023-05-17-151923-mcclure.jpg'
-      alt: 'a mural being painted in downtown Colorado Springs'
-    - src: '2023-06-15-143721-groovy.jpg'
-      alt: 'a manual screen printing press in use, primary colors of blue and yellow'
+    - src: '20230517-151923-molly-mcclure.jpg'
+    - src: '20230615-143721-groovy-print-shop.jpg'
       style: right
-    - src: '2023-06-15-142150-groovy.jpg'
+    - src: '20230615-142150-groovy-print-shop.jpg'
+    - src: '20230712-181717-groovy-print-shop.jpg'
+      style: right
   - title: '2022-pikes-peak-aframe'
     images:
-    - src: '2022-pikes-peak-aframe/09.jpg'
-      alt: 'a portrait of hiker in early morning light on top of a mountain'
+    - src: '20220827-054511-pikes-peak-aframe-repair.jpg'
       style: left
-    - src: '2022-pikes-peak-aframe/06.jpg'
-      alt: 'silhouettes of volunteers on the summit at sunrise'
+    - src: '20220827-053848-pikes-peak-aframe-repair.jpg'
       style: quarter
       align: flex-start
-    - src: '2022-pikes-peak-aframe/05.jpg'
-      alt: 'a view of the summit house on the top of Pikes Peak'
+    - src: '20220827-052408-pikes-peak-aframe-repair.jpg'
       style: quarter
   - title: '2022-pikes-peak-flora'
     images:
-    - src: '2022-pikes-peak-flora/04.jpg'
+    - src: '20220827-062123-pikes-peak-flora.jpg'
       alt: 'a distant view down the side of Pikes Peak and surrounding mountains from higher up on Barr'
       style: quarter
   - title: '2022-pikes-peak-aframe'
     images:
-    - src: '2022-pikes-peak-aframe/15.jpg'
-      alt: 'volunteers carrying materials on Barr Trail'
+    - src: '20220827-061927-pikes-peak-aframe-repair.jpg'
       style: quarter
-    - src: '2022-pikes-peak-aframe/17.jpg'
-      alt: 'a smiling volunteer carrying a new support pole on Barr Trail'
+    - src: '20220827-063945-pikes-peak-aframe-repair.jpg'
       style: quarter
       align: flex-start
-    - src: '2022-pikes-peak-aframe/36.jpg'
-      alt: 'finishing cutting through a support for the a-frame structure'
+    - src: '20220827-115220-pikes-peak-aframe-repair.jpg'
       style: quarter
       align: flex-start
-    - src: '2022-pikes-peak-aframe/29.jpg'
+    - src: '20220827-100854-pikes-peak-aframe-repair.jpg'
       alt: 'people working on a construction scene at the Pikes Peak A-Frame'
       style: half
   - title: '2023-colorado-springs'
     images:
-    - src: '2023-colorado-springs/00.jpg'
-      alt: 'a light blue Volkswagen Beetle, head on'
+    - src: '20230416-091201-old-colorado-city.jpg'
       style: right
   - title: '2022-redcloud'
     images:
-    - src: '2022-redcloud/07.jpg'
-      alt: 'a steep mountainside and ridgeline viewed from afar'
+    - src: '20220808-111500-redcloud-sunshine.jpg'
       style: full
-    - src: '2022-redcloud/05.jpg'
-      alt: 'a person hiking up switchbacks over a scree field to the top of Redcloud Peak'
+    - src: '20220808-110015-redcloud-sunshine.jpg'
       style: third
-    - src: '2022-redcloud/00.jpg'
-      alt: 'detail of a person using hiking poles on a trial'
+    - src: '20220808-092518-redcloud-sunshine.jpg'
       style: half
       align: flex-start
   - title: '2021-lake-city'
     images:
-    - src: '2021-lake-city/04.jpg'
+    - src: '20210423-112104-lake-city.jpg'
       alt: 'Jean and Sapphie hiking in the snow'
       style: half
-    - src: '2021-lake-city/02.jpg'
+    - src: '20210423-101317-lake-city.jpg'
       alt: 'a conifer forest on a mountainside covered in dense snow'
       style: quarter
-    - src: '2021-lake-city/01.jpg'
+    - src: '20210423-100101-lake-city.jpg'
       alt: 'snowy mountainsides viewed from a distance, emerging through the fog'
       style: quarter
   - title: '2023-sapphie-spring'
     images:
-    - src: '2023-03-17-073612-home.jpg'
-      alt: 'Sapphie the dog in the snow'
+    - src: '20230317-073612-sapphie.jpg'
       style: full
-    - src: '2023-05-18-182939-home.jpg'
-      alt: 'a hand petting a black dog looking out of a window'
+    - src: '20230518-182939-sapphie.jpg'
       style: quarter
-  - title: '2021-family'
+  - title: '2021-family-colorado'
     images:
-    - src: '2021-family/2021-10-19-locked-fight.jpg'
-      alt: 'two dogs locked in a play fight, mirroring each other'
+    - src: '20211019-181915-family-colorado.jpg'
       style: quarter
   - title: '2023-virginia-spring'
     images:
-    - src: '2023-03-26-195552-virginia.jpg'
+    - src: '20230326-195552-virginia.jpg'
       style: quarter
   - title: '2023-colorado-springs-february'
     images:
-    - src: '2023-02-20-093527-street.jpg'
+    - src: '20230220-093527-colorado-springs-downtown.jpg'
       style: quarter
   

@@ -1,0 +1,24 @@
+---
+layout: base.njk
+permalink: /images/{{ page.fileSlug }}/
+---
+
+<div class="page">
+  <div class="boundary">
+    <main>
+      <section class="flex--photo">
+      {% set src = src %}
+      {% set alt = alt %}
+      
+      <figure class="flex-item--full">
+        {% image_full src, alt %}
+        <figcaption>{{ alt }}</figcaption>
+      </figure>
+      
+      <section class="content--post">
+      {{ content | safe }}
+      </section>
+    </main>
+    {% include 'nav--page.njk' %}
+  </div>
+</div>

@@ -1,0 +1,12 @@
+{% macro generate(banner) %}
+  <section class="flex--photo">
+  {%- for image in collections.image -%}
+    {%- if banner.src == image.data.src -%}
+      <figure class="flex-item flex-item--full">
+      {% image_full image.data.src, image.data.alt %}
+      </figure>
+    {%- endif -%}
+  {%- endfor -%}
+  
+  </section>
+{% endmacro %}
