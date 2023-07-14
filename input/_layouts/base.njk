@@ -25,10 +25,11 @@ portrait:
 		<meta property="og:url" content="{{ url }}">
 		<meta property="og:title" content="{{ title }}">
 		<meta property="og:description" content="{{ description }}">
-		<meta property="og:type" content="profile">
-		{% if images %}
-		<meta property="og:image" content="{% image_og images[0].src %}">
-		<meta property="og:image:alt" content="{{ images[0].alt }}">
+		<meta property="og:type" content="{% if page.url == '/about/' %}profile{% else %}article{% endif %}">
+		{% if photoset %}
+		{% set photo = photoset[0] | first %}
+		<meta property="og:image" content="{% image_og photo.src %}">
+		<meta property="og:image:alt" content="{{ description }}">
 		{% else %}
 		<meta property="og:image" content="{% image_og portrait.src %}">
 		<meta property="og:image:alt" content="{{ portrait.alt }}">
