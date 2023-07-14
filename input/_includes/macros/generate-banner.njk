@@ -1,5 +1,5 @@
 {% macro generate(banner) %}
-  <section class="flex--photo">
+  <section class="flex--banner">
   {%- for image in collections.image -%}
     {%- if banner.src == image.data.src -%}
       <figure class="flex-item flex-item--full">
@@ -7,6 +7,5 @@
       </figure>
     {%- endif -%}
   {%- endfor -%}
-  
   </section>
 {% endmacro %}
