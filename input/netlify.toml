@@ -25,6 +25,11 @@
   from = "/stories/"
   to = "/projects/"
   status = 301
+  
+[[ redirects ]]
+  from = "/2021-family/"
+  to = "/2021-family-virginia/"
+  status = 301
 
 [[headers]]
   for = "/fonts/*.woff2"

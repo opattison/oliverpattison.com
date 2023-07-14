@@ -4,42 +4,19 @@ permalink: /{{ page.fileSlug }}/
 ---
 
 {% if banner %}
-  <section class="flex--banner">
-    {% set src = banner.src %}
-    {% set alt = banner.alt %}
-    <figure class="flex-item flex-item--full">
-    {% image_full src, alt %}
-    </figure>
-  </section>
+  {%- from 'macros/generate-banner.njk' import generate with context -%}
+  {{ generate(banner) }}
 {% endif %}
-<div class="page page--photo">
+<div class="page">
   <div class="boundary">
     <main>
-    {% if entry %}
-      <section class="entry">
-      <h2>{{ title }}</h2>
-      {% markdown entry %}
-      </section>
-    {% endif %}
-      <section class="flex--photo">
-      {% for image in images %}
-        {% set src = image.src %}
-        {% set alt = image.alt %}
-        {% set style = image.style %}
-        
-        <figure class="flex-item{% if style %} flex-item--{{ style }}{% endif %}">
-        {% image_full src, alt %}
-        </figure>
-      {% endfor %}
-      </section>
-      
-      <section class="content--photo">
-      {{ content | safe }}
-      
-      {% if period %}
-        <p>{{ period }}</p>
+      {% if entry %}
+        <section class="entry">
+          <h2>{{ title }}</h2>
+          {% markdown entry %}
+        </section>
       {% endif %}
-      </section>
+        {{ content | safe }}
     </main>
     {% include 'nav--page.njk' %}
   </div>
