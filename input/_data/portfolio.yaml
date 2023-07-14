@@ -45,7 +45,9 @@ links:
   - title: '2022-redcloud'
     images:
     - src: '20220808-111500-redcloud-sunshine.jpg'
-      style: full
+      style: half
+    - src: '20220808-102041-redcloud-sunshine.jpg'
+      style: half
     - src: '20220808-110015-redcloud-sunshine.jpg'
       style: third
     - src: '20220808-092518-redcloud-sunshine.jpg'
@@ -80,4 +82,8 @@ links:
     images:
     - src: '20230220-093527-colorado-springs-downtown.jpg'
       style: quarter
+  - title: '2022-redcloud'
+    images:
+    - src: '20220808-094802-redcloud-sunshine.jpg'
+      style: left
   
