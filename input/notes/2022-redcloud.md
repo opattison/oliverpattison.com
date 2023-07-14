@@ -10,36 +10,25 @@ vignette:
 photoset:
   - 
     - src: '20220808-102041-redcloud-sunshine.jpg'
-      alt: ''
       style: full
     - src: '20220808-092518-redcloud-sunshine.jpg'
-      alt: ''
       style: half
     - src: '20220808-092741-redcloud-sunshine.jpg'
-      alt: ''
       style: half
     - src: '20220808-094802-redcloud-sunshine.jpg'
-      alt: ''
       style: right
     - src: '20220808-105013-redcloud-sunshine.jpg'
-      alt: ''
       style: half
     - src: '20220808-110015-redcloud-sunshine.jpg'
-      alt: ''
       style: half
     - src: '20220808-111443-redcloud-sunshine.jpg'
-      alt: ''
     - src: '20220808-112724-redcloud-sunshine.jpg'
-      alt: ''
       style: half
     - src: '20220808-112919-redcloud-sunshine.jpg'
-      alt: ''
       style: half
     - src: '20220808-111500-redcloud-sunshine.jpg'
-      alt: ''
       style: full
     - src: '20220808-165205-redcloud-sunshine.jpg'
-      alt: ''
       style: left
 
 ---
