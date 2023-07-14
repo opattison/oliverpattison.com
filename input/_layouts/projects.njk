@@ -3,31 +3,29 @@ layout: base.njk
 ---
 
 <div class="page page--index">
-  <div class="boundary--index">
-    <main>
-      <ul class="flex--projects">
-      {% for post in collections.project | reverse %}
-        {% set src = post.data.vignette.src %}
-        {% set alt = post.data.description %}
-        {% set style = "vignette-image" %}
-        {% set size = post.data.vignette.size %}
-        {% set period = post.data.vignette.period %}
-        <li class="flex-item flex-item--projects">
-          <a href="{{ post.url }}">
-            <figure class="vignette">
-              {% image_flex src, alt, style %}
-              <figcaption class="vignette-caption">
-                <h3 class="vignette-title">{{ post.data.title }}</h3>
-                <p class="vignette-date">{{ period }}</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-      {% endfor %}
-      </ul>
-    {{ content | safe }}
-    </main>
-  </div>
+  <main>
+    <ul class="flex--projects">
+    {% for post in collections.project | reverse %}
+      {% set src = post.data.vignette.src %}
+      {% set alt = post.data.description %}
+      {% set style = "vignette-image" %}
+      {% set size = post.data.vignette.size %}
+      {% set period = post.data.vignette.period %}
+      <li class="flex-item flex-item--projects">
+        <a href="{{ post.url }}">
+          <figure class="vignette">
+            {% image_flex src, alt, style %}
+            <figcaption class="vignette-caption">
+              <h3 class="vignette-title">{{ post.data.title }}</h3>
+              <p class="vignette-date">{{ period }}</p>
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+  {{ content | safe }}
+  </main>
 </div>
 <section class="introduction">
 {% include 'currently.njk' %}

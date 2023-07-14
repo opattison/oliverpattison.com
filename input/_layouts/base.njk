@@ -50,10 +50,10 @@ portrait:
 		<link rel="dns-prefetch" href="https://oliverpattison.imgix.net">
 		
 		{% set css %}
-		{% include 'baseline.css' %}
-		{% include 'typography.css' %}
-		{% include 'structure.css' %}
-		{% include 'theme.css' %}
+		{% include 'styles/baseline.css' %}
+		{% include 'styles/typography.css' %}
+		{% include 'styles/structure.css' %}
+		{% include 'styles/theme.css' %}
 		{% endset %}
 		
 		<style>
@@ -74,7 +74,7 @@ portrait:
 				<div class="contact">
 					<ul class="contact-list">
 						<li class="contact-item">email: <a href="{{ email_src }}">{{ email }}</a></li>
-						<li class="contact-item">call or text: <a href="{{ phone_src }}">{{ phone }}</a></li>
+						<li class="contact-item">text: <a href="{{ phone_src }}">{{ phone }}</a></li>
 					</ul>
 				</div>
 				<div class="location">

@@ -3,11 +3,10 @@ layout: base.njk
 ---
 
 <div class="page page--about">
-  <div class="boundary boundary--content">
+  <div class="boundary">
     <main>
       <section class="entry--about">
       {% if entry %}{% markdown entry %}{% endif %}
-      {% if callout %}{% markdown callout %}{% endif %}
       </section>
       {% set src = portrait.src %}
       {% set alt = portrait.alt %}
