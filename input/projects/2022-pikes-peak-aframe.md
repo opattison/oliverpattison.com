@@ -79,27 +79,19 @@ photoset:
     - src: '20220827-101248-pikes-peak-aframe-repair.jpg'
       style: left
     - src: '20220827-103628-pikes-peak-aframe-repair.jpg'
-      alt: ''
     - src: '20220827-113631-pikes-peak-aframe-repair.jpg'
-      alt: ''
       style: right
     - src: '20220827-115209-pikes-peak-aframe-repair.jpg'
-      alt: ''
       style: half
     - src: '20220827-115220-pikes-peak-aframe-repair.jpg'
-      alt: ''
       style: half
     - src: '20220827-120657-pikes-peak-aframe-repair.jpg'
-      alt: ''
       style: half
     - src: '20220827-130700-pikes-peak-aframe-repair.jpg'
-      alt: ''
       style: half
     - src: '20220827-144710-pikes-peak-aframe-repair.jpg'
-      alt: ''
       style: left
     - src: '20220827-153425-pikes-peak-aframe-repair.jpg'
-      alt: ''
       style: left
 
 ---
