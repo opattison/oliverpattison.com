@@ -11,9 +11,9 @@ photoset:
   - 
     - src: '20230618-115217-lake-city.jpg'
       style: full
-    - src: '20230618-135010-lake-city.jpg'
-      style: third
     - src: '20230618-145401-lake-city.jpg'
+      style: third
+    - src: '20230618-135010-lake-city.jpg'
       style: third
     - src: '20230618-145452-lake-city.jpg'
       style: third
