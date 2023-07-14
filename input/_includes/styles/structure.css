@@ -58,8 +58,7 @@ footer {
   padding: 2em 1em 3em 2em;
 }
 
-.boundary,
-.boundary--home {
+.boundary {
   margin: 0 0 0 auto;
 }
 
@@ -307,8 +306,7 @@ footer {
 }
 
 @media screen and (min-width: 52em) {
-  .boundary,
-  .boundary--home {
+  .boundary {
     max-width: 40em;
   }
   
@@ -358,10 +356,6 @@ footer {
   
   footer {
     padding: 3em 8vw 3em 16vw;
-  }
-  
-  .boundary--home {
-    max-width: 60em;
   }
   
   .page {
