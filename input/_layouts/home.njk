@@ -4,32 +4,28 @@ layout: base.njk
 
 <main>
   <section class="page page--index">
-    <div class="boundary--index">
-      <ul class="flex">
-      {% for link in portfolio.links %}
-        {% set title = link.title %}
-        {% set images = link.images %}
-        
-        {% for post in collections.all %}
-          {% if post.fileSlug == title %}  
-            {% set alt = post.data.description %}
-            {% for image in images %}
-              {% set src = image.src %}
-              {% set style = image.style %}
-              {% set align = image.align %}
-              {% set image_style = '' %}
-            
-              <li class="flex-item{% if style %} flex-item--{{ style }}{% endif %}"{% if align %} style="align-self: {{ align }}"{% endif %}><a href="{{ post.url }}">{% image_flex src, alt, image_style %}</a></li>
-            {% endfor %}
-          {% endif %}
-        {% endfor %}
+    <ul class="flex">
+    {% for link in portfolio.links %}
+      {% set title = link.title %}
+      {% set images = link.images %}
+      
+      {% for post in collections.all %}
+        {% if post.fileSlug == title %}  
+          {% set alt = post.data.description %}
+          {% for image in images %}
+            {% set src = image.src %}
+            {% set style = image.style %}
+            {% set align = image.align %}
+            {% set image_style = '' %}
+          
+            <li class="flex-item{% if style %} flex-item--{{ style }}{% endif %}"{% if align %} style="align-self: {{ align }}"{% endif %}><a href="{{ post.url }}">{% image_flex src, alt, image_style %}</a></li>
+          {% endfor %}
+        {% endif %}
       {% endfor %}
-      </ul>
-    </div>
+    {% endfor %}
+    </ul>
   </section>
   <section class="introduction">
-    <div class="boundary--index">
     {{ content | safe }}
-    </div>
   </section>
 </main>
