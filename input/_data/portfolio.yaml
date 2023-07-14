@@ -74,13 +74,25 @@ links:
     images:
     - src: '20211019-181915-family-colorado.jpg'
       style: quarter
-  - title: '2023-virginia-spring'
+  - title: '2021-family-virginia'
     images:
-    - src: '20230326-195552-virginia.jpg'
+    - src: '20210529-202416-family-virginia.jpg'
       style: quarter
   - title: '2023-colorado-springs-february'
     images:
     - src: '20230220-093527-colorado-springs-downtown.jpg'
+      style: quarter
+  - title: '2021-walking-snow'
+    images:
+    - src: '20210213-180329-walk-snow.jpg'
+      style: quarter
+  - title: '2022-crested-butte'
+    images:
+    - src: '20220905-125127-crested-butte-vignette.jpg'
+      style: quarter
+  - title: '2023-virginia-spring'
+    images:
+    - src: '20230326-195552-virginia.jpg'
       style: quarter
   - title: '2022-redcloud'
     images:
