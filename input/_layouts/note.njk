@@ -5,9 +5,7 @@ permalink: /{{ page.fileSlug }}/
 
 {% if banner %}
   {%- from 'macros/generate-banner.njk' import generate with context -%}
-  <section class="flex--banner">    
-    {{ generate(banner) }}
-  </section>
+  {{ generate(banner) }}
 {% endif %}
 <div class="page">
   <div class="boundary">
