@@ -46,4 +46,4 @@ photoset:
 
 {{ generate(photoset[0]) }}
 
-This project is a proof-of-concept for the kind of mode and style I want to work in – immediate and intimate, with a dense and high-contrast look. I hope to document many artists within the Colorado Springs arts communities in this manner.
+This project is a proof-of-concept for the kind of mode and style I want to work in – immediate and intimate, with a dense and high-contrast look. I hope to document many artists within the Colorado Springs arts communities in this manner. This is an early stage in my documentary photography project [Art Emerging](/2023-art/).
