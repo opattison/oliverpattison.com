@@ -7,7 +7,7 @@ entry:
   'I take pictures in a humanistic style for people who want a realistic document of their life or work.
   
   
-  I shoot in a quick and candid style, with subjects in their natural environments. I tend to take mostly unposed pictures, but I can also collaborate with you to create a scene or story. I am a careful editor who will shape a narrative for you and deliver consistent results in a distinctive style.
+  If you are an artist, a creative professional, a small business, or a non-profit organization seeking to tell your story through candid photography, you should reach out. I can help you showcase your mission, your talent, your distinct personality, your purpose through bold photography.
   
   
   [Say hello](mailto:hello@oliverpattison.com) and let me know what you’re looking for.'
@@ -20,4 +20,4 @@ I live in Colorado Springs with my partner Jean and our dog Sapphie. Living here
 
 ## My Approach
 
-If you are an artist, a creative professional, a small business, or a non-profit organization seeking to tell your story through candid photography, you should reach out. I can help you showcase your mission, your talent, your distinct personality, your purpose through bold photography.
+I shoot with a quick and candid approach, with subjects in their familiar environments. I tend to take mostly unposed pictures, but I can also collaborate with you to create a scene or story. I am a careful editor who will shape a narrative for you and deliver consistent results.
