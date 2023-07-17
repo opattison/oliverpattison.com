@@ -1,8 +1,8 @@
 ---
 title: 'Sound Séance'
-description: 'bold colors from my summer project at Groovy Print Shop'
+description: 'documentary work from a live performance'
 date: '2023-07-16T17:00:00'
-updated: '2023-07-14T18:09:47'
+updated: '2023-07-17T17:56:07'
 tags:
   - personal
 vignette:
