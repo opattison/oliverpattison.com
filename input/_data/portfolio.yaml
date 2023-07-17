@@ -5,11 +5,25 @@ links:
       style: left
     - src: '20230627-142246-molly-mcclure.jpg'
       style: right
-    - src: '20230517-151923-molly-mcclure.jpg'
+    - src: '20230715-172034-sound-seance.jpg'
+      style: left
     - src: '20230615-143721-groovy-print-shop.jpg'
-      style: right
+      style: full
     - src: '20230615-142150-groovy-print-shop.jpg'
     - src: '20230712-181717-groovy-print-shop.jpg'
+      style: right
+    - src: '20230709-115754-molly-mcclure.jpg'
+      style: half
+    - src: '20230706-112559-molly-mcclure.jpg'
+      style: half
+      align: flex-end
+    - src: '20230709-113835-molly-mcclure.jpg'
+      style: third
+    - src: '20230709-113745-molly-mcclure.jpg'
+      style: third
+    - src: '20230709-121319-molly-mcclure.jpg'
+      style: third
+    - src: '20230624-122006-molly-mcclure.jpg'
       style: right
   - title: '2022-pikes-peak-aframe'
     images:
@@ -38,6 +52,16 @@ links:
     - src: '20220827-100854-pikes-peak-aframe-repair.jpg'
       alt: 'people working on a construction scene at the Pikes Peak A-Frame'
       style: half
+  - title: '2023-art'
+    images:
+    - src: '20230715-191240-sound-seance.jpg'
+      style: third
+    - src: '20230715-170941-sound-seance.jpg'
+      style: third
+      align: flex-start
+    - src: '20230715-192351-sound-seance.jpg'
+      style: third
+      align: flex-start
   - title: '2023-colorado-springs'
     images:
     - src: '20230416-091201-old-colorado-city.jpg'
