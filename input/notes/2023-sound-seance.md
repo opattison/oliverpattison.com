@@ -27,4 +27,4 @@ photoset:
 
 ## {{ title }}
 
-This past week, I enjoyed working on close documentary photography of the Sound Séance performance with [Jasmine Dillavou](https://www.jasminedillavou.com) and [Drew Geiger](https://www.instagram.com/ejrmmusic/). This was a live interactive performance at the Kreuser Gallery, featuring hand-made instruments and improvised loops. This is moving and boundary-pushing work that showcases [how exciting the arts communities are in Colorado Springs](/2023-art/).
+This past week, I enjoyed working on close documentary photography of the Sound Séance performance with [Jasmine Dillavou](https://www.jasminedillavou.com) and [Drew Geiger](https://www.instagram.com/ejrmmusic/). The interactive performance was held at the Kreuser Gallery, featuring hand-made instruments and improvised loops. This is moving and boundary-pushing work that showcases [how exciting the arts communities are in Colorado Springs](/2023-art/).
