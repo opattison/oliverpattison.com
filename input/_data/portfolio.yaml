@@ -13,6 +13,18 @@ links:
     - src: '20230712-181717-groovy-print-shop.jpg'
       style: right
     - src: '20230709-115754-molly-mcclure.jpg'
+      style: half
+    - src: '20230706-112559-molly-mcclure.jpg'
+      style: half
+      align: flex-end
+    - src: '20230709-113835-molly-mcclure.jpg'
+      style: third
+    - src: '20230709-113745-molly-mcclure.jpg'
+      style: third
+    - src: '20230709-121319-molly-mcclure.jpg'
+      style: third
+    - src: '20230624-122006-molly-mcclure.jpg'
+      style: right
   - title: '2022-pikes-peak-aframe'
     images:
     - src: '20220827-054511-pikes-peak-aframe-repair.jpg'
