@@ -1,8 +1,8 @@
 ---
 title: 'Sound Séance'
-description: 'bold colors from my summer project at Groovy Print Shop'
+description: 'documentary work from a live performance'
 date: '2023-07-16T17:00:00'
-updated: '2023-07-14T18:09:47'
+updated: '2023-07-17T17:56:07'
 tags:
   - personal
 vignette:
@@ -24,6 +24,12 @@ photoset:
       style: half
     - src: '20230714-180209-sound-seance.jpg'
       style: half
+    - src: '20230715-185210-sound-seance.jpg'
+      style: half
+    - src: '20230715-171458-sound-seance.jpg'
+      style: half
+    - src: '20230715-170941-sound-seance.jpg'
+      style: right
     - src: '20230715-172034-sound-seance.jpg'
       style: left
 ---
