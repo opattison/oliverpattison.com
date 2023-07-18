@@ -24,6 +24,12 @@ photoset:
       style: half
     - src: '20230714-180209-sound-seance.jpg'
       style: half
+    - src: '20230715-185210-sound-seance.jpg'
+      style: half
+    - src: '20230715-171458-sound-seance.jpg'
+      style: half
+    - src: '20230715-170941-sound-seance.jpg'
+      style: right
     - src: '20230715-172034-sound-seance.jpg'
       style: left
 ---
