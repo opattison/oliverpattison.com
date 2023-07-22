@@ -7,6 +7,12 @@ links:
       style: right
     - src: '20230715-172034-sound-seance.jpg'
       style: left
+  - title: '2023-community'
+    images:
+    - src: '20230721-205559-gray-duck-fac.jpg'
+      style: full
+  - title: '2023-art'
+    images:
     - src: '20230615-143721-groovy-print-shop.jpg'
       style: full
     - src: '20230615-142150-groovy-print-shop.jpg'
@@ -43,40 +49,38 @@ links:
     images:
     - src: '20220827-061927-pikes-peak-aframe-repair.jpg'
       style: quarter
-    - src: '20220827-063945-pikes-peak-aframe-repair.jpg'
-      style: quarter
-      align: flex-start
-    - src: '20220827-115220-pikes-peak-aframe-repair.jpg'
-      style: quarter
-      align: flex-start
     - src: '20220827-100854-pikes-peak-aframe-repair.jpg'
       alt: 'people working on a construction scene at the Pikes Peak A-Frame'
       style: half
+    - src: '20220827-115220-pikes-peak-aframe-repair.jpg'
+      style: quarter
+      align: flex-start
   - title: '2023-art'
     images:
     - src: '20230715-191240-sound-seance.jpg'
       style: third
     - src: '20230715-170941-sound-seance.jpg'
       style: third
-      align: flex-start
     - src: '20230715-192351-sound-seance.jpg'
       style: third
-      align: flex-start
-  - title: '2023-colorado-springs'
+  - title: '2023-community'
     images:
-    - src: '20230416-091201-old-colorado-city.jpg'
-      style: right
+    - src: '20230721-223309-gray-duck-fac.jpg'
+      style: half
+    - src: '20230620-185255-matt-true-north.jpg'
+      style: half
   - title: '2022-redcloud'
     images:
     - src: '20220808-111500-redcloud-sunshine.jpg'
+      style: full
+    - src: '20220808-110015-redcloud-sunshine.jpg'
       style: half
     - src: '20220808-102041-redcloud-sunshine.jpg'
       style: half
-    - src: '20220808-110015-redcloud-sunshine.jpg'
-      style: third
     - src: '20220808-092518-redcloud-sunshine.jpg'
       style: half
-      align: flex-start
+    - src: '20220808-092741-redcloud-sunshine.jpg'
+      style: half
   - title: '2021-lake-city'
     images:
     - src: '20210423-112104-lake-city.jpg'
