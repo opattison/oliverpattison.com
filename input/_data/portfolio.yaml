@@ -66,36 +66,40 @@ links:
   - title: '2023-community'
     images:
     - src: '20230721-223309-gray-duck-fac.jpg'
-      style: half
+      style: third
     - src: '20230620-185255-matt-true-north.jpg'
-      style: half
+      style: third
   - title: '2022-redcloud'
     images:
-    - src: '20220808-111500-redcloud-sunshine.jpg'
-      style: full
-    - src: '20220808-110015-redcloud-sunshine.jpg'
-      style: half
     - src: '20220808-102041-redcloud-sunshine.jpg'
+      style: right
+    - src: '20220808-105013-redcloud-sunshine.jpg'
+      style: half
+    - src: '20220808-110015-redcloud-sunshine.jpg'
       style: half
     - src: '20220808-092518-redcloud-sunshine.jpg'
       style: half
     - src: '20220808-092741-redcloud-sunshine.jpg'
       style: half
+    - src: '20220808-094802-redcloud-sunshine.jpg'
+      style: half
+    - src: '20220808-111500-redcloud-sunshine.jpg'
+      style: half
   - title: '2021-lake-city'
     images:
     - src: '20210423-112104-lake-city.jpg'
       alt: 'Jean and Sapphie hiking in the snow'
-      style: half
+      style: third
     - src: '20210423-101317-lake-city.jpg'
       alt: 'a conifer forest on a mountainside covered in dense snow'
-      style: quarter
+      style: third
     - src: '20210423-100101-lake-city.jpg'
       alt: 'snowy mountainsides viewed from a distance, emerging through the fog'
-      style: quarter
+      style: third
   - title: '2023-sapphie-spring'
     images:
     - src: '20230317-073612-sapphie.jpg'
-      style: full
+      style: right
     - src: '20230518-182939-sapphie.jpg'
       style: quarter
   - title: '2023-guitar-at-home'
@@ -122,8 +126,4 @@ links:
     images:
     - src: '20230326-195552-virginia.jpg'
       style: quarter
-  - title: '2022-redcloud'
-    images:
-    - src: '20220808-094802-redcloud-sunshine.jpg'
-      style: left
   
