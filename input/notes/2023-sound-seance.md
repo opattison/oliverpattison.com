@@ -1,6 +1,6 @@
 ---
 title: 'Sound Séance'
-description: 'documentary work from a live performance'
+description: 'documentary work from a live experimental performance'
 date: '2023-07-16T17:00:00'
 updated: '2023-07-17T17:56:07'
 tags:

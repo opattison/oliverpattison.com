@@ -15,10 +15,9 @@ photoset:
     - src: '20211019-201122-family-colorado.jpg'
       style: left
     - src: '20211019-201005-family-colorado.jpg'
+      style: right
     - src: '20211019-181755-family-colorado.jpg'
-      style: half
-    - src: '20211019-181659-family-colorado.jpg'
-      style: half
+      style: full
 ---
 
 {%- from 'macros/generate-photoset.njk' import generate with context -%}
