@@ -15,14 +15,14 @@ photoset:
       style: half
     - src: '20230427-125605-barr-camp.jpg'
       style: half
-    - src: '20230427-115451-barr-camp.jpg'
-      style: half
     - src: '20230427-115512-barr-camp.jpg'
-      style: half
+      style: center
     - src: '20230427-115941-barr-camp.jpg'
       style: full
     - src: '20230427-120037-barr-camp.jpg'
-      style: right
+      style: half
+    - src: '20230427-115451-barr-camp.jpg'
+      style: half
     - src: '20230427-140349-barr-camp.jpg'
       style: half
     - src: '20230427-135932-barr-camp.jpg'
