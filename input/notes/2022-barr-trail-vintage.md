@@ -1,5 +1,5 @@
 ---
-title: 'people of Barr Trail'
+title: 'people of Barr Trail, part 1'
 description: 'women hiking the trail to Pikes Peak with homemade vintage gear'
 date: '2022-08-05T22:00:00'
 updated: '2023-07-14T16:41:00'
