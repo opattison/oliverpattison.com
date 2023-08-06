@@ -124,7 +124,7 @@ footer {
 
 .entry--about,
 .content--about {
-  padding: 1em 1em 2em 2em;
+  padding: 2em 2em 3em 2em;
   margin: 0 -1em .5em -2em;
 }
 
@@ -191,7 +191,7 @@ footer {
 .vignette-caption,
 .vignette-caption--note {
   margin: 0;
-  padding: 1em;
+  padding: 1.5em;
 }
 
 .vignette-description {
@@ -212,10 +212,6 @@ footer {
 .contact-item {
   display: block;
   margin-top: 1em;
-}
-
-.location {
-  margin-top: 2em;
 }
 
 @media screen and (min-width: 35em) {
@@ -307,12 +303,12 @@ footer {
 
 @media screen and (min-width: 52em) {
   .boundary {
-    max-width: 40em;
+    max-width: 48em;
   }
   
   .entry--about {
-    margin: 0 1em 0 -2em;
-    padding: 2em 4em 10em 2em;
+    margin: 0 1em 0 -3em;
+    padding: 2em 3em 10em 3em;
   }
   
   .content--post {
@@ -335,7 +331,6 @@ footer {
   }
   
   .vignette-caption--note {
-    margin-top: .5em;
     margin-left: 3em;
   }
   
@@ -381,5 +376,6 @@ footer {
   
   .content--about {
     margin: .5em 0 0 0;
+    padding: 1em 3em 3em 3em;
   }
 }
