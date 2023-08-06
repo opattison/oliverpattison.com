@@ -7,7 +7,6 @@ tags:
   - professional
 vignette:
   src: '20230520-151749-david-bradley.jpg'
-  period: '2023'
 banner:
   src: '20230520-143748-david-bradley.jpg'
 entry:

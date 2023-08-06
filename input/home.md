@@ -11,4 +11,4 @@ Hello. I’m Oliver, a photographer based in Colorado Springs.
 
 Take a look at my weekly updates, new work, and short-form storytelling [in the notes section](/notes/).
 
-If you’d like to hire me, [get in touch]({{ email_src }}). Participate in or learn more about [my long-term documentary photography projects](/projects/#currently).
+If you’d like to hire me, [get in touch]({{ email_src }}). Participate in or learn more about [my long-term documentary photography projects](/projects/).

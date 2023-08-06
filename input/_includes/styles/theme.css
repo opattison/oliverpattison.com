@@ -84,10 +84,6 @@ footer a:hover {
   color: hsl(var(--color-primary) var(--light-f5));
 }
 
-.introduction {
-  background-color: hsl(var(--color-primary) var(--light-b2));
-}
-
 .vignette,
 .vignette--note {
   background-color: hsl(var(--color-primary) var(--light-b0));
@@ -97,8 +93,10 @@ footer a:hover {
   text-decoration: none;
 }
 
+.introduction,
 .entry,
 .entry--about,
+.content--projects,
 .content--about {
   background-color: hsl(var(--color-primary) var(--light-b0));
 }
