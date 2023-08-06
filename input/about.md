@@ -4,7 +4,7 @@ layout: about.njk
 permalink: /about/
 eleventyExcludeFromCollections: true
 entry: 
-  'I take pictures in a humanistic style for people who want a realistic document of their life or work.
+  'I take pictures in a humanistic style for people who want a document of their work and life.
   
   
   If you are an artist, a creative professional, a small business, or a non-profit organization seeking to tell your story through candid photography, you should reach out. I can help you showcase your mission, your talent, your distinct personality, your purpose through bold photography.
