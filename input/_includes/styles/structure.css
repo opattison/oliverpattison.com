@@ -124,7 +124,7 @@ footer {
 
 .entry--about,
 .content--about {
-  padding: 2em 3em 3em 3em;
+  padding: 2em 2em 3em 2em;
   margin: 0 -1em .5em -2em;
 }
 
@@ -376,5 +376,6 @@ footer {
   
   .content--about {
     margin: .5em 0 0 0;
+    padding: 1em 3em 3em 3em;
   }
 }
