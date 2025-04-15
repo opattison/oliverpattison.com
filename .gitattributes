@@ -1,4 +1,0 @@
-. !text !filter !merge !diff
-*.png !text !filter !merge !diff
-*.jpg !text !filter !merge !diff
-*.woff2 !text !filter !merge !diff
